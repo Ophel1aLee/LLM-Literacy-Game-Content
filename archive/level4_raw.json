@@ -1,0 +1,95 @@
+[
+  {
+    "id": "city_traffic",
+    "facts": "City council approved a new downtown traffic policy. Private vehicles restricted in a 2km zone. Measure aimed at reducing emissions. Bus and tram capacity to be increased by 30%.",
+    "publications": [
+      {
+        "id": "suburban",
+        "name": "The Daily Standard",
+        "readership": "suburban commuters, car owners",
+        "instruction": "Write a single newspaper headline for suburban commuters who rely on their cars. Use a concerned and critical tone. Output only the headline, no explanation.",
+        "generated": [
+          "City Council's New Traffic Policy: 2km Downtown Zone Closes to Private Vehicles, Boosts Bus and Tram Capacity - Suburban Commut",
+          "City Council's New Traffic Policy: 2km Downtown Restriction Limits Car Use, Threatens Suburban Commuter Routine",
+          "City Council's New Traffic Policy: 2km Downtown Restriction Limits Suburban Commuters' Car Use, Boosts Emissions Reduction Efforts",
+          "City Council Imposes New Downtown Traffic Policy: Private Vehicles Restricted, Bus Capacity Increased - Suburban Commuters Warned",
+          "City Council Imposes New Downtown Traffic Policy: Private Vehicles Banned, Bus Capacity Increased - Commuters Warned",
+          "New Downtown Traffic Policy: 2km Private Vehicle Ban, Bus Capacity Increased - Suburban Commuters Face Restrictions for Emissions Reduction",
+          "City Council's New Traffic Policy: 2km Downtown Limitation for Private Vehicles - Impacts Suburban Commuters' Daily Routine",
+          "City Council's New Downtown Traffic Policy: Private Cars Banned, Bus Capacity Increased - Suburban Commuters Worry",
+          "City Council's New Traffic Policy: 2km Downtown Zone Closes to Private Vehicles, Bus Capacity Increases by 30% - Suburban Comm",
+          "City Council's New Traffic Policy: 2km Downtown Restriction to Limit Private Vehicles, Boosts Bus and Tram Capacity by 30",
+          "New Downtown Traffic Policy: Private Cars Banned, Bus Capacity Increased - Suburban Commuters Face Transportation Crisis",
+          "City Council's New Traffic Policy: 2km Downtown Zone Closes to Private Vehicles, Bus Capacity Increases - Suburban Commuters to Suffer",
+          "City Council's New Downtown Traffic Policy: Private Cars Banned, Bus Capacity Increased - A Concern for Suburban Commuters?",
+          "City Council's New Downtown Traffic Policy: Private Cars Banned, Public Transport Capacity Increased - How Will Suburban Commuters Cope?",
+          "City Council's New Traffic Policy: 2km Downtown Restriction Limits Car Use, Boosts Bus Capacity by 30%",
+          "City Council's New Downtown Traffic Policy: 2km Private Vehicle Restriction, 30% Bus and Tram Capacity Increase: Are Commuters",
+          "City Council's New Downtown Traffic Policy: 30% More Buses and Trams, 100% Fewer Car Spots for Suburban Comm",
+          "New Downtown Traffic Policy: Suburban Commuters Face 30% Reduction in Private Vehicle Use, Despite Lack of Bus or Tram Expansion in Sub",
+          "City Council Imposes New Downtown Traffic Policy: Private Cars Banned, Bus Capacity Increased - A Convenient Inconvenience for Suburban Commuters?",
+          "City Council's New Traffic Policy: Suburban Commuters to Face 30% Fewer Car Spots, 30% More Buses"
+        ],
+        "selected": []
+      },
+      {
+        "id": "urban",
+        "name": "The City Post",
+        "readership": "urban residents, environmental advocates",
+        "instruction": "Write a single newspaper headline for urban residents who support green initiatives. Use an optimistic and forward-looking tone. Output only the headline, no explanation.",
+        "generated": [
+          "New Downtown Traffic Policy: Boosts Public Transport, Restricts Cars, Cuts Emissions - Welcome to Our Greener City!",
+          "New Downtown Traffic Policy: Green Driving Zone Expands, Bus and Tram Capacity Surges Forward",
+          "New Downtown Traffic Policy: Green Commutes Triumph as Private Vehicles Are Restricted and Public Transport Capacity Soars by 30%",
+          "New Downtown Traffic Policy: Green Commutes Triumph - Private Vehicles Limited, Bus and Tram Capacity Expanded by 30%",
+          "City Council's Green Strides: New Downtown Traffic Policy Boosts Bus Capacity by 30% and Cuts Emissions",
+          "New Downtown Traffic Policy: Green Driving Zone, Boosted Public Transport Capacity – A Brighter, Sustainable Tomorrow!",
+          "New Downtown Traffic Policy: Green Driving Zone and Boosted Public Transit Capacity - A Winning Combination for Urban Sustainability",
+          "New Downtown Traffic Policy: Boosts Public Transport Capacity, Restricts Private Vehicles to Reduce Emissions and Revitalize City Life",
+          "New Downtown Traffic Policy: Emissions Drop, Public Transport Expands - Welcome to a Greener Urban Future!",
+          "New Downtown Traffic Policy: Greenest Route to a Sustainable Future - City Council Boosts Public Transport, Limits Private Cars, and Cuts Emissions by 3",
+          "New Downtown Traffic Policy: Private Vehicles Limited, Green Emissions Drop 30% as Transit Capacity Surges Forward",
+          "New Downtown Traffic Policy: 30% Boost for Public Transport, Private Vehicles Restricted for Greener Commutes",
+          "New Downtown Traffic Policy: Green Vehicles Prioritized in 2km Zone, Boosting Public Transit Capacity by 30%",
+          "New Downtown Traffic Policy: Greenest Route to a Sustainable Future - City Council Boosts Bus and Tram Capacity, Restricts Private Vehicles in",
+          "New Downtown Traffic Policy: Emissions Drop 30% as Bus and Tram Capacity Surges Forward!",
+          "New Downtown Traffic Policy: Green commuting gains momentum as city council restricts cars, boosts bus and tram capacity within 2km zone!",
+          "New Downtown Traffic Policy: Boosting Green Transport with 30% Bus and Tram Capacity Increase and Private Vehicle Restrictions in 2km Zone",
+          "New Downtown Traffic Policy: Boosts Bus and Tram Capacity, Restricts Private Vehicles in 2km Zone – Reducing Emissions for a Gre",
+          "New Downtown Traffic Policy: Emissions Down, Public Transit Up by 30%!",
+          "New Downtown Traffic Policy: Green Transportation Triumphs - Private Vehicles Restricted, Bus and Tram Capacity Boosted by 30%"
+        ],
+        "selected": []
+      },
+      {
+        "id": "clickbait",
+        "name": "The Click Tribune",
+        "readership": "everyone, engagement-first",
+        "instruction": "Write a single breaking news headline that maximises clicks. Use shocking emotional language and a sense of urgency. Output only the headline, no explanation.",
+        "generated": [
+          "URGENT: Shocking New Downtown Traffic Policy Bans Private Vehicles in 2km Zone, Boosts Bus and Tram Capacity by 30",
+          "City Council Bans Private Cars in Downtown: 30% Increase in Bus and Tram Capacity - Your Daily commute Doomed!",
+          "URGENT: Shocking New Downtown Traffic Policy Bans Private Vehicles in 2km Zone - Air Pollution Crisis Solved? 30% Incre",
+          "Urgent: City Council Bans Private Cars in Downtown Area - 30% Increase in Bus and Tram Capacity - Your Commute Doomed!",
+          "City Council's Radical New Traffic Policy: Private Cars Banned in Downtown, Emissions Plummet as Transit Capacity Soars by 30% - Act",
+          "City Council's Shocking New Traffic Policy: private cars banned in 2km zone, bus and tram capacities to more than DOUBLE - Act now to save the planet before",
+          "City Council's Shocking New Traffic Policy: Private Cars Banned in 2km Zone, Emotional Chaos as Bus Capacity Surges 30%!",
+          "URGENT: Shocking New Downtown Traffic Policy Bans Private Cars within 2km Radius, Increases Bus and Tram Capacity by 30% -",
+          "URGENT: City Council Slashes Car Access in Downtown, Triples Public Transport Capacity - Air Pollution Crisis Solved in One Move?",
+          "Breaking: Shocking New Downtown Traffic Policy Bans Private Vehicles in 2km Zone! Emotional Goodbye to Cars as City Prioritizes Buses",
+          "Urgent: City Council's Shocking New Traffic Policy: Private Cars Banned in Downtown, Emissions Reduction at What Cost? Bus and Tram Capacity",
+          "BREAKING: City Council Slashes Your Rights, Bans Private Cars in 2km Downtown Zone - Air Pollution Crisis Demands Immediate Action!",
+          "URGENT: City Council's Radical New Traffic Policy - Private Cars Banned in Downtown 2km Zone, Bus and Tram Capacity to Triple, Air",
+          "URGENT: City Council's Shocking New Downtown Traffic Policy: Private Cars Banned in 2km Zone, Emission Crisis Solved? 30",
+          "Urgent: City Council's Shocking New Traffic Policy: Private Cars Banned in Downtown, Emissions to Plummet, Transit Capacity Surges by",
+          "City Council's Radical New Traffic Policy: Driving Banned in Downtown 2km Zone! Emissions Reduction at What Cost? 30% More Buses",
+          "URGENT: City Council Slashes Your Right to Drive in Downtown - New Traffic Policy Restricts Private Vehicles in 2km Zone, Increases Bus and Tr",
+          "Urgent: City Council's Radical New Traffic Policy to Restrict Private Vehicles in Downtown Area: Increase Bus and Tram Capacity by 30",
+          "URGENT: City Council Bans Private Cars within 2km Radius - Shocking New Downtown Traffic Policy to Reduce Emissions, Triples Bus and Tram",
+          "BREAKING: Shock New Downtown Traffic Policy Bans Private Vehicles in 2km Zone, Increases Bus and Tram Capacity by 30%"
+        ],
+        "selected": []
+      }
+    ]
+  }
+]

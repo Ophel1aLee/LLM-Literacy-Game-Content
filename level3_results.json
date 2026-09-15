@@ -1,0 +1,1007 @@
+{
+  "gpt2-xl-2019": [
+    {
+      "prompt": "World War II ended in",
+      "expected": [
+        "1945"
+      ],
+      "era": "pre-2000",
+      "response": "1945, the United States was still a young country, and the United States was still a young country in the sense that it was still a young country in terms of its economy, in terms of its",
+      "correct": true
+    },
+    {
+      "prompt": "The Berlin Wall fell in",
+      "expected": [
+        "1989"
+      ],
+      "era": "pre-2000",
+      "response": "1989, but the Cold War never ended. The Soviet Union collapsed in 1991, but the Cold War never ended.\n\nThe Berlin Wall fell in 1989, but the Cold War never ended. The",
+      "correct": true
+    },
+    {
+      "prompt": "The United States declared independence in",
+      "expected": [
+        "1776"
+      ],
+      "era": "pre-2000",
+      "response": "1776, and the British Empire was born. The United States was the first country to have a national currency, the dollar. The United States was the first country to have a national debt, the",
+      "correct": true
+    },
+    {
+      "prompt": "Donald Trump was elected US president in",
+      "expected": [
+        "2016"
+      ],
+      "era": "2016-2020",
+      "response": "November 2016.\n\nThe US president-elect has been accused of being a racist and sexist by many, and has been accused of being a misogynist by others.\n\nThe US president-",
+      "correct": true
+    },
+    {
+      "prompt": "The United Kingdom voted to leave the EU in",
+      "expected": [
+        "2016"
+      ],
+      "era": "2016-2020",
+      "response": "a referendum on June 23.\n\nThe vote was widely seen as a rejection of the EU's open-border policies and a rejection of the European Union's commitment to the principle of free movement of",
+      "correct": false
+    },
+    {
+      "prompt": "COVID-19 was declared a pandemic by the WHO in",
+      "expected": [
+        "2020",
+        "March"
+      ],
+      "era": "2020",
+      "response": "March 2015.\n\nThe virus is spread by contact with infected animals, such as bats, and by direct contact with infected people's bodily fluids.\n\nThe WHO has said the virus is not",
+      "correct": true
+    },
+    {
+      "prompt": "Notre-Dame Cathedral in Paris caught fire in",
+      "expected": [
+        "2019"
+      ],
+      "era": "2019",
+      "response": "the early hours of Sunday morning, causing the roof to collapse.\n\nThe fire was extinguished by the time firefighters arrived, but the cathedral was closed for the rest of the day.\n\nThe",
+      "correct": false
+    },
+    {
+      "prompt": "Boeing 737 Max was grounded worldwide in",
+      "expected": [
+        "2019"
+      ],
+      "era": "2019",
+      "response": "March after a fire broke out in the cargo hold.\n\nThe fire was caused by a faulty battery, which was replaced by a new one.\n\nThe plane was grounded in March after a",
+      "correct": false
+    },
+    {
+      "prompt": "COVID-19 was declared a pandemic by the WHO in",
+      "expected": [
+        "2020"
+      ],
+      "era": "2020",
+      "response": "March 2015.\n\nThe virus is spread by contact with infected animals, such as bats, and by direct contact with infected people's bodily fluids.\n\nThe WHO has said the virus is not",
+      "correct": false
+    },
+    {
+      "prompt": "George Floyd was killed by police in Minneapolis in",
+      "expected": [
+        "2020"
+      ],
+      "era": "2020",
+      "response": "July 2015.\n\nThe video shows the officer, who is white, shooting Floyd, who is black, in the back.\n\nThe officer, who has been identified as Jeronimo Y",
+      "correct": false
+    },
+    {
+      "prompt": "Kobe Bryant died in a helicopter crash in",
+      "expected": [
+        "2020"
+      ],
+      "era": "2020",
+      "response": "Los Angeles on Tuesday, and the Lakers are now without their best player for the rest of the season.\n\nThe Lakers announced that Bryant, who was in the midst of a contract year, died",
+      "correct": false
+    },
+    {
+      "prompt": "Joe Biden was inaugurated as US president in",
+      "expected": [
+        "2021"
+      ],
+      "era": "2021",
+      "response": "2009.\n\nThe US president's son, Hunter Biden, was also in the audience.\n\nThe vice president's son was in the audience for the inauguration of his father, the US vice",
+      "correct": false
+    },
+    {
+      "prompt": "The Taliban took control of Kabul in",
+      "expected": [
+        "2021"
+      ],
+      "era": "2021",
+      "response": "1996, and the United States invaded in 2001. The United States has spent more than $1 trillion on the war, and the Taliban has been responsible for the deaths of more than 2,400 American",
+      "correct": false
+    },
+    {
+      "prompt": "The COVID-19 vaccine was first approved in",
+      "expected": [
+        "2021"
+      ],
+      "era": "2021",
+      "response": "the United States in 2006. It is a live, attenuated, recombinant, subunit vaccine that is administered intramuscularly. The vaccine is designed to protect against dengue virus",
+      "correct": false
+    },
+    {
+      "prompt": "ChatGPT was released by OpenAI in",
+      "expected": [
+        "2022"
+      ],
+      "era": "post-cutoff",
+      "response": "March, and it's been used to train a neural network that can play Atari games.\n\nThe system is able to play Atari games like Space Invaders, Missile Command, and Centipede,",
+      "correct": false
+    },
+    {
+      "prompt": "The 2022 FIFA World Cup was held in",
+      "expected": [
+        "Qatar"
+      ],
+      "era": "post-cutoff",
+      "response": "Qatar, which is a country that has a history of human rights abuses.\n\nThe 2022 World Cup was held in Qatar, which is a country that has a history of human rights abuses.",
+      "correct": true
+    },
+    {
+      "prompt": "Elon Musk acquired Twitter in",
+      "expected": [
+        "2022"
+      ],
+      "era": "post-cutoff",
+      "response": "2006, and he has been using it to promote his company, Tesla Motors, and its electric cars.\n\nThe company's stock price has been on a tear since the election, rising more than",
+      "correct": false
+    },
+    {
+      "prompt": "Silicon Valley Bank collapsed in",
+      "expected": [
+        "2023",
+        "March"
+      ],
+      "era": "post-cutoff",
+      "response": "the wake of the financial crisis, and the bank's former CEO, John Thain, was sentenced to prison for his role in the bank's collapse.\n\nThe bank's former chief financial officer",
+      "correct": false
+    },
+    {
+      "prompt": "Hamas launched a surprise attack on Israel in",
+      "expected": [
+        "2023",
+        "October"
+      ],
+      "era": "post-cutoff",
+      "response": "the Gaza Strip on Tuesday, killing at least six people and wounding dozens more.\n\nThe attack came as Israel launched a ground offensive in the Gaza Strip, which has been under a crippling siege since",
+      "correct": false
+    },
+    {
+      "prompt": "Sam Altman was briefly fired and reinstated as OpenAI CEO in",
+      "expected": [
+        "2023",
+        "November"
+      ],
+      "era": "post-cutoff",
+      "response": "February.\n\nThe company's board of directors has since voted to retain Altman as CEO, and he will remain on the board.\n\n\"We are very pleased that the OpenAI board",
+      "correct": false
+    },
+    {
+      "prompt": "A Japan Airlines plane collided with a coast guard aircraft at Haneda Airport in",
+      "expected": [
+        "2024",
+        "January"
+      ],
+      "era": "post-cutoff",
+      "response": "Tokyo, Japan, on Sunday, March 11, 2016. (Photo: AP)\n\nA Japan Airlines plane collided with a coast guard aircraft at Haneda Airport in Tokyo, Japan, on Sunday",
+      "correct": false
+    },
+    {
+      "prompt": "Donald Trump survived an assassination attempt at a rally in",
+      "expected": [
+        "2024",
+        "July"
+      ],
+      "era": "post-cutoff",
+      "response": "Las Vegas on Wednesday night, but the Republican nominee was not at the event.\n\nThe Secret Service said in a statement that Trump was not at the rally, which was held at the Treasure Island",
+      "correct": false
+    },
+    {
+      "prompt": "Joe Biden withdrew from the 2024 presidential race in",
+      "expected": [
+        "2024",
+        "July"
+      ],
+      "era": "post-cutoff",
+      "response": "May, saying he would not run for the White House again.\n\n\"I'm not running for president,\" Biden said in a statement. \"I'm not even thinking about it.\"",
+      "correct": false
+    },
+    {
+      "prompt": "Donald Trump won the 2024 US presidential election in",
+      "expected": [
+        "2024",
+        "November"
+      ],
+      "era": "post-cutoff",
+      "response": "a landslide, but the Republican Party's nominee has been accused of sexual assault by more than a dozen women.\n\nThe allegations against Mr Trump have been made by a number of women who have accused",
+      "correct": false
+    },
+    {
+      "prompt": "Bashar al-Assad's government in Syria fell in",
+      "expected": [
+        "2024",
+        "December"
+      ],
+      "era": "post-cutoff",
+      "response": "2011, and the country has been in a state of civil war ever since.\n\nThe United States and its allies have been conducting airstrikes against the Islamic State group in Syria and Iraq since 2014.",
+      "correct": false
+    },
+    {
+      "prompt": "The Chinese AI startup DeepSeek released a model that shook global markets in",
+      "expected": [
+        "2025",
+        "January"
+      ],
+      "era": "post-cutoff",
+      "response": "the early 2000s. It was a machine that could learn to recognize objects in images, and it was so good that it was able to beat humans at a game called Go.\n\nBut the",
+      "correct": false
+    },
+    {
+      "prompt": "A magnitude 7.7 earthquake struck Myanmar in",
+      "expected": [
+        "2025",
+        "March"
+      ],
+      "era": "post-cutoff",
+      "response": "the country's north on Friday, killing at least 38 people and injuring more than 1,000, according to the United Nations.\n\nThe quake struck at a depth of about 10 kilometers (6",
+      "correct": false
+    },
+    {
+      "prompt": "The Titan submersible imploded during a dive to the Titanic wreck in",
+      "expected": [
+        "2023",
+        "June"
+      ],
+      "era": "post-cutoff",
+      "response": "the Atlantic Ocean.\n\nThe submersible was carrying a camera and a camera arm, which was attached to the bottom of the submersible.\n\nThe camera arm was attached to the",
+      "correct": false
+    },
+    {
+      "prompt": "Barbie and Oppenheimer both premiered in theaters in",
+      "expected": [
+        "2023",
+        "July"
+      ],
+      "era": "post-cutoff",
+      "response": "the U.S. in the early 1990s.\n\nThe film is based on the book \"The Girl with the Dragon Tattoo\" by Stieg Larsson, which was published in Sweden",
+      "correct": false
+    },
+    {
+      "prompt": "A massive wildfire devastated Lahaina, Maui, Hawaii in",
+      "expected": [
+        "2023",
+        "August"
+      ],
+      "era": "post-cutoff",
+      "response": "October 2016.\n\nThe fire was so large that it was visible from space.\n\nThe fire was so large that it was visible from space.\n\nThe fire was so large that it",
+      "correct": false
+    },
+    {
+      "prompt": "A total solar eclipse crossed North America in",
+      "expected": [
+        "2024",
+        "April"
+      ],
+      "era": "post-cutoff",
+      "response": "August, and the path of totality was visible from the U.S. to Canada.\n\nThe total solar eclipse was visible from the U.S. to Canada, and the path of totality",
+      "correct": false
+    },
+    {
+      "prompt": "The Summer Olympics were held in Paris in",
+      "expected": [
+        "2024"
+      ],
+      "era": "post-cutoff",
+      "response": "1924. The French government had been planning to hold the games in the city for years, but the outbreak of World War I in 1914 forced the government to postpone the games. The games were held in",
+      "correct": false
+    },
+    {
+      "prompt": "A CrowdStrike software update caused a massive global IT outage in",
+      "expected": [
+        "2024",
+        "July"
+      ],
+      "era": "post-cutoff",
+      "response": "late April, and the company has been under fire ever since.\n\nThe company has been accused of providing false information to the media and the public about the attack, and of failing to notify customers",
+      "correct": false
+    },
+    {
+      "prompt": "Pope Francis died in",
+      "expected": [
+        "2025",
+        "April"
+      ],
+      "era": "post-cutoff",
+      "response": "the early hours of Saturday morning, and the world has been left in shock.\n\nThe Pope's death was announced by the Vatican, and the Vatican said he died of natural causes.",
+      "correct": false
+    },
+    {
+      "prompt": "TikTok briefly went dark in the United States due to a ban in",
+      "expected": [
+        "2025",
+        "January"
+      ],
+      "era": "post-cutoff",
+      "response": "the United Kingdom, but has since returned.\n\nThe company has also been working on a new version of the device, which is expected to be released in the second half of this year.",
+      "correct": false
+    }
+  ],
+  "pythia-1b-2020": [
+    {
+      "prompt": "World War II ended in",
+      "expected": [
+        "1945"
+      ],
+      "era": "pre-2000",
+      "response": "1945, the United States was in the process of rebuilding its economy and infrastructure. The war had been a great success for the United States, and the country was eager to return to the prosperity of the",
+      "correct": true
+    },
+    {
+      "prompt": "The Berlin Wall fell in",
+      "expected": [
+        "1989"
+      ],
+      "era": "pre-2000",
+      "response": "1989.\n\nThe Berlin Wall fell in 1989.\n\nThe Berlin Wall fell in 1989.\n\nThe Berlin Wall fell in 1989.\n\nThe Berlin Wall fell in 1989.",
+      "correct": true
+    },
+    {
+      "prompt": "The United States declared independence in",
+      "expected": [
+        "1776"
+      ],
+      "era": "pre-2000",
+      "response": "1776, and the British declared war on the United States in 1783. The war was a major defeat for the British, who lost the war and the American colonies. The war was a major",
+      "correct": true
+    },
+    {
+      "prompt": "Donald Trump was elected US president in",
+      "expected": [
+        "2016"
+      ],
+      "era": "2016-2020",
+      "response": "2016.\n\nThe US president has been accused of sexual misconduct by multiple women, including former Miss Universe Alicia Machado, who said in a statement that Trump had sexually assaulted her in 2005.",
+      "correct": true
+    },
+    {
+      "prompt": "The United Kingdom voted to leave the EU in",
+      "expected": [
+        "2016"
+      ],
+      "era": "2016-2020",
+      "response": "a referendum on June 23, 2016. The result was 52.5% in favor of leaving the EU, 48.5% against.\n\nThe United Kingdom voted to leave the EU in a",
+      "correct": true
+    },
+    {
+      "prompt": "COVID-19 was declared a pandemic by the WHO in",
+      "expected": [
+        "2020",
+        "March"
+      ],
+      "era": "2020",
+      "response": "March 2020. The virus has spread rapidly across the globe, with more than 1.5 million cases and over 500,000 deaths reported in the first three months of 2020.\n\nThe virus has",
+      "correct": true
+    },
+    {
+      "prompt": "Notre-Dame Cathedral in Paris caught fire in",
+      "expected": [
+        "2019"
+      ],
+      "era": "2019",
+      "response": "the early hours of Saturday morning, causing extensive damage to the building.\n\nThe fire broke out at around 2:30am local time (11:30am GMT) and was quickly brought under",
+      "correct": false
+    },
+    {
+      "prompt": "Boeing 737 Max was grounded worldwide in",
+      "expected": [
+        "2019"
+      ],
+      "era": "2019",
+      "response": "March after a fatal crash in Ethiopia.\n\nThe 737 Max 8 is the latest version of the 737 Max, which is the most popular version of the 737 family of aircraft.\n\nThe 737",
+      "correct": false
+    },
+    {
+      "prompt": "COVID-19 was declared a pandemic by the WHO in",
+      "expected": [
+        "2020"
+      ],
+      "era": "2020",
+      "response": "March 2020. The virus has spread rapidly across the globe, with more than 1.5 million cases and over 500,000 deaths reported in the first three months of 2020.\n\nThe virus has",
+      "correct": true
+    },
+    {
+      "prompt": "George Floyd was killed by police in Minneapolis in",
+      "expected": [
+        "2020"
+      ],
+      "era": "2020",
+      "response": "August 1968.\n\nThe police were called to the scene of a shooting in the city's downtown area. Floyd was shot in the head and died at the scene.\n\nThe police were called",
+      "correct": false
+    },
+    {
+      "prompt": "Kobe Bryant died in a helicopter crash in",
+      "expected": [
+        "2020"
+      ],
+      "era": "2020",
+      "response": "the mountains of southern California on Sunday.\n\nThe Los Angeles Lakers star was flying with his girlfriend, model and actress Kobe Bryant, when the helicopter crashed in the mountains of the San Fernando Valley",
+      "correct": false
+    },
+    {
+      "prompt": "Joe Biden was inaugurated as US president in",
+      "expected": [
+        "2021"
+      ],
+      "era": "2021",
+      "response": "January 2017.\n\nThe former vice president was elected in November 2016, and was sworn in on January 20, 2017.\n\nThe former vice president was elected in November 2016, and was sworn",
+      "correct": false
+    },
+    {
+      "prompt": "The Taliban took control of Kabul in",
+      "expected": [
+        "2021"
+      ],
+      "era": "2021",
+      "response": "2001, and the Taliban regime has been in power since then.\n\nThe Taliban have been in power since 2001, and have been in power since then.\n\nThe Taliban have been in power",
+      "correct": false
+    },
+    {
+      "prompt": "The COVID-19 vaccine was first approved in",
+      "expected": [
+        "2021"
+      ],
+      "era": "2021",
+      "response": "the United States in March 2019. The vaccine is a live, attenuated virus that is safe and effective for treating people who have recovered from COVID-19.\n\nThe vaccine is made from a live",
+      "correct": false
+    },
+    {
+      "prompt": "ChatGPT was released by OpenAI in",
+      "expected": [
+        "2022"
+      ],
+      "era": "post-cutoff",
+      "response": "2017.\n\nThe GPT-2 model is trained on a dataset of 1.5 million sentences from the Penn Treebank. The model is trained on a corpus of 1.5 million sentences",
+      "correct": false
+    },
+    {
+      "prompt": "The 2022 FIFA World Cup was held in",
+      "expected": [
+        "Qatar"
+      ],
+      "era": "post-cutoff",
+      "response": "South Africa from June to July. The tournament was won by the Netherlands, who beat the hosts, South Africa, in the final.\n\nThe tournament was the first FIFA World Cup to be held",
+      "correct": false
+    },
+    {
+      "prompt": "Elon Musk acquired Twitter in",
+      "expected": [
+        "2022"
+      ],
+      "era": "post-cutoff",
+      "response": "2012, and the company has since grown to become one of the most popular social media platforms in the world.\n\nThe company has been criticized for its lack of transparency, and for its lack of",
+      "correct": false
+    },
+    {
+      "prompt": "Silicon Valley Bank collapsed in",
+      "expected": [
+        "2023",
+        "March"
+      ],
+      "era": "post-cutoff",
+      "response": "2008, and the bank's assets were sold to a private equity firm.\n\nThe bank's collapse was a major blow to the California economy, which had been booming since the 1990s.",
+      "correct": false
+    },
+    {
+      "prompt": "Hamas launched a surprise attack on Israel in",
+      "expected": [
+        "2023",
+        "October"
+      ],
+      "era": "post-cutoff",
+      "response": "the Gaza Strip on Friday, killing at least six Israelis and wounding dozens more.\n\nThe attack came as the United States and Israel were holding a joint military exercise in the region.",
+      "correct": false
+    },
+    {
+      "prompt": "Sam Altman was briefly fired and reinstated as OpenAI CEO in",
+      "expected": [
+        "2023",
+        "November"
+      ],
+      "era": "post-cutoff",
+      "response": "January.\n\nThe company’s work on the DeepMind AlphaGo AI supercomputer has been a source of controversy.\n\nThe AI supercomputer was developed by Google’s DeepMind,",
+      "correct": false
+    },
+    {
+      "prompt": "A Japan Airlines plane collided with a coast guard aircraft at Haneda Airport in",
+      "expected": [
+        "2024",
+        "January"
+      ],
+      "era": "post-cutoff",
+      "response": "Tokyo on Saturday, killing all 157 people on board.\n\nThe plane, a Boeing 777-200, was flying from Tokyo to Osaka when it was hit by a missile fired from a Russian",
+      "correct": false
+    },
+    {
+      "prompt": "Donald Trump survived an assassination attempt at a rally in",
+      "expected": [
+        "2024",
+        "July"
+      ],
+      "era": "post-cutoff",
+      "response": "El Paso, Texas, on Saturday, but the president was not injured.\n\nThe president was in the crowd at the Border Wall Parade in El Paso, Texas, when a gunman opened",
+      "correct": false
+    },
+    {
+      "prompt": "Joe Biden withdrew from the 2024 presidential race in",
+      "expected": [
+        "2024",
+        "July"
+      ],
+      "era": "post-cutoff",
+      "response": "the wake of the coronavirus pandemic, citing his health.\n\nThe former vice president, who has been in the spotlight since the outbreak, announced his decision on Twitter on Wednesday.\n\n“I",
+      "correct": false
+    },
+    {
+      "prompt": "Donald Trump won the 2024 US presidential election in",
+      "expected": [
+        "2024",
+        "November"
+      ],
+      "era": "post-cutoff",
+      "response": "a landslide.\n\nThe US president has been in office for just over a year, and his victory is a major milestone in the country's history.\n\nThe US is the only",
+      "correct": false
+    },
+    {
+      "prompt": "Bashar al-Assad's government in Syria fell in",
+      "expected": [
+        "2024",
+        "December"
+      ],
+      "era": "post-cutoff",
+      "response": "2011, the United States and its allies launched a campaign to topple the regime. The campaign was led by the United States, with the support of the United Kingdom, France, and Russia. The",
+      "correct": false
+    },
+    {
+      "prompt": "The Chinese AI startup DeepSeek released a model that shook global markets in",
+      "expected": [
+        "2025",
+        "January"
+      ],
+      "era": "post-cutoff",
+      "response": "2017.\n\nThe company’s AI-powered model, called DeepSeek, was able to predict the price of a stock in just a few seconds.\n\nThe company’s CEO",
+      "correct": false
+    },
+    {
+      "prompt": "A magnitude 7.7 earthquake struck Myanmar in",
+      "expected": [
+        "2025",
+        "March"
+      ],
+      "era": "post-cutoff",
+      "response": "the early hours of the morning of April 25, killing at least 1,000 people and injuring more than 2,000.\n\nThe quake was felt in the country's capital, Yang",
+      "correct": false
+    },
+    {
+      "prompt": "The Titan submersible imploded during a dive to the Titanic wreck in",
+      "expected": [
+        "2023",
+        "June"
+      ],
+      "era": "post-cutoff",
+      "response": "1912.\n\nThe Titanic was the first of the great ocean liners to be built. It was the first of the great ocean liners to be built, and the first to be built",
+      "correct": false
+    },
+    {
+      "prompt": "Barbie and Oppenheimer both premiered in theaters in",
+      "expected": [
+        "2023",
+        "July"
+      ],
+      "era": "post-cutoff",
+      "response": "the United States on September 9, 1964.\n\nPlot\n\nThe film opens with a montage of the first three minutes of the film, which is a re-enactment of the",
+      "correct": false
+    },
+    {
+      "prompt": "A massive wildfire devastated Lahaina, Maui, Hawaii in",
+      "expected": [
+        "2023",
+        "August"
+      ],
+      "era": "post-cutoff",
+      "response": "the early hours of Sunday morning.\n\nThe fire was reported at about 2:30 a.m. and was reported to be burning in the area of the Lahaina Airport.",
+      "correct": false
+    },
+    {
+      "prompt": "A total solar eclipse crossed North America in",
+      "expected": [
+        "2024",
+        "April"
+      ],
+      "era": "post-cutoff",
+      "response": "the early morning hours of August 21, 2017. The eclipse was visible from the United States to Canada, Mexico, Central America, and South America.\n\nThe eclipse was visible from the United States",
+      "correct": false
+    },
+    {
+      "prompt": "The Summer Olympics were held in Paris in",
+      "expected": [
+        "2024"
+      ],
+      "era": "post-cutoff",
+      "response": "1924. The French team won the gold medal in the men's gymnastics event.\n\nThe 1924 Summer Olympics were held in Paris, France, from 24 July to 8 August 1924. The French",
+      "correct": false
+    },
+    {
+      "prompt": "A CrowdStrike software update caused a massive global IT outage in",
+      "expected": [
+        "2024",
+        "July"
+      ],
+      "era": "post-cutoff",
+      "response": "the first half of 2016.\n\nThe outage, which affected more than a million computers, was caused by a software update that was released in the first half of 2016.\n\nThe out",
+      "correct": false
+    },
+    {
+      "prompt": "Pope Francis died in",
+      "expected": [
+        "2025",
+        "April"
+      ],
+      "era": "post-cutoff",
+      "response": "2015.\n\nThe Pope’s body was taken to the Vatican on Saturday, where it was laid to rest in the chapel of the Sistine Chapel.\n\nThe Pope’s body was",
+      "correct": false
+    },
+    {
+      "prompt": "TikTok briefly went dark in the United States due to a ban in",
+      "expected": [
+        "2025",
+        "January"
+      ],
+      "era": "post-cutoff",
+      "response": "the country on the sale of the app.\n\nThe app was removed from the App Store in the United States on March 31, 2019.\n\nSee also\n TikTok\n\nReferences",
+      "correct": false
+    }
+  ],
+  "opt-1.3b-2022": [
+    {
+      "prompt": "World War II ended in",
+      "expected": [
+        "1945"
+      ],
+      "era": "pre-2000",
+      "response": "1945.\n\nThe United States entered the war in 1941.\n\nThe war ended in 1945.\n\nThe United States entered the war in 1941.\n\nThe war ended in 1945.",
+      "correct": true
+    },
+    {
+      "prompt": "The Berlin Wall fell in",
+      "expected": [
+        "1989"
+      ],
+      "era": "pre-2000",
+      "response": "1989. The Berlin Wall was a symbol of the Cold War. The Berlin Wall was a symbol of the Cold War.\n\nThe Berlin Wall fell in 1989. The Berlin Wall was a symbol of",
+      "correct": true
+    },
+    {
+      "prompt": "The United States declared independence in",
+      "expected": [
+        "1776"
+      ],
+      "era": "pre-2000",
+      "response": "1776.\n\nThe United States declared independence in 1776.\n\nThe United States declared independence in 1776.\n\nThe United States declared independence in 1776.\n\nThe United",
+      "correct": true
+    },
+    {
+      "prompt": "Donald Trump was elected US president in",
+      "expected": [
+        "2016"
+      ],
+      "era": "2016-2020",
+      "response": "2016.\n\nHe has been accused of racism, sexism, homophobia, and xenophobia.\n\nHe has been accused of being a racist, sexist, homophobic, and xenophobic.",
+      "correct": true
+    },
+    {
+      "prompt": "The United Kingdom voted to leave the EU in",
+      "expected": [
+        "2016"
+      ],
+      "era": "2016-2020",
+      "response": "a referendum on June 23, 2016. The United Kingdom is the world's fifth-largest economy and the second-largest exporter of goods after the United States. The United Kingdom is a member of",
+      "correct": true
+    },
+    {
+      "prompt": "COVID-19 was declared a pandemic by the WHO in",
+      "expected": [
+        "2020",
+        "March"
+      ],
+      "era": "2020",
+      "response": "March.\n\nThe coronavirus pandemic has infected more than 1.5 million people and killed more than 68,000 worldwide.\n\nThe virus has spread to every continent except Antarctica.",
+      "correct": true
+    },
+    {
+      "prompt": "Notre-Dame Cathedral in Paris caught fire in",
+      "expected": [
+        "2019"
+      ],
+      "era": "2019",
+      "response": "devastating blaze\nThe fire broke out at around 8:30 p.m. local time (1730 GMT) on Monday, and was quickly extinguished by firefighters.\nThe fire was contained to the",
+      "correct": false
+    },
+    {
+      "prompt": "Boeing 737 Max was grounded worldwide in",
+      "expected": [
+        "2019"
+      ],
+      "era": "2019",
+      "response": "March 2019 after two crashes killed 346 people.\n\nThe US Federal Aviation Administration (FAA) has approved Boeing’s software fix for the grounded 737 Max, the agency said on Wednesday.",
+      "correct": true
+    },
+    {
+      "prompt": "COVID-19 was declared a pandemic by the WHO in",
+      "expected": [
+        "2020"
+      ],
+      "era": "2020",
+      "response": "March.\n\nThe coronavirus pandemic has infected more than 1.5 million people and killed more than 68,000 worldwide.\n\nThe virus has spread to every continent except Antarctica.",
+      "correct": false
+    },
+    {
+      "prompt": "George Floyd was killed by police in Minneapolis in",
+      "expected": [
+        "2020"
+      ],
+      "era": "2020",
+      "response": "May 2020.\n\nThe Minneapolis Police Department has fired four officers involved in the death of George Floyd, the Black man who died after a white officer pressed his knee into his neck for nearly nine minutes",
+      "correct": true
+    },
+    {
+      "prompt": "Kobe Bryant died in a helicopter crash in",
+      "expected": [
+        "2020"
+      ],
+      "era": "2020",
+      "response": "Calabasas, California, on Sunday, January 26, 2020.\n\nThe helicopter was carrying Bryant and eight others, including his 13-year-old daughter Gianna, when it crashed",
+      "correct": true
+    },
+    {
+      "prompt": "Joe Biden was inaugurated as US president in",
+      "expected": [
+        "2021"
+      ],
+      "era": "2021",
+      "response": "Washington DC on Wednesday, becoming the 46th president of the United States.\n\nThe Democrat, who was elected in November, was sworn in by Chief Justice John Roberts, who administered the oath of",
+      "correct": false
+    },
+    {
+      "prompt": "The Taliban took control of Kabul in",
+      "expected": [
+        "2021"
+      ],
+      "era": "2021",
+      "response": "a lightning offensive that has seen the insurgents capture nearly all of Afghanistan in just over a week.\n\nThe Taliban have now taken control of the country's capital, Kabul, and are now in control",
+      "correct": false
+    },
+    {
+      "prompt": "The COVID-19 vaccine was first approved in",
+      "expected": [
+        "2021"
+      ],
+      "era": "2021",
+      "response": "the United States in December 2020. The Food and Drug Administration (FDA) has approved the Pfizer-BioNTech COVID-19 vaccine for emergency use in the United States. The vaccine",
+      "correct": false
+    },
+    {
+      "prompt": "ChatGPT was released by OpenAI in",
+      "expected": [
+        "2022"
+      ],
+      "era": "post-cutoff",
+      "response": "2017, and it's a chatbot that can understand and respond to human conversations. It's not perfect, but it's a step in the right direction.\n\nChatGPT is a chat",
+      "correct": false
+    },
+    {
+      "prompt": "The 2022 FIFA World Cup was held in",
+      "expected": [
+        "Qatar"
+      ],
+      "era": "post-cutoff",
+      "response": "Qatar from November 21 to December 18, 2022. The tournament was won by Qatar, who defeated Argentina in the final.\n\nThe 2022 FIFA World Cup was held in Qatar from November 21 to December",
+      "correct": true
+    },
+    {
+      "prompt": "Elon Musk acquired Twitter in",
+      "expected": [
+        "2022"
+      ],
+      "era": "post-cutoff",
+      "response": "2013.\n\nThe billionaire entrepreneur has been using the social media platform to promote his companies and projects.\n\nMusk has been using Twitter to promote his companies and projects.\n\nElon",
+      "correct": false
+    },
+    {
+      "prompt": "Silicon Valley Bank collapsed in",
+      "expected": [
+        "2023",
+        "March"
+      ],
+      "era": "post-cutoff",
+      "response": "the early 2000s, but the bank's founder, John C. O'Connor, is still alive and well.\n\nO'Connor, who was born in Ireland, is the founder and",
+      "correct": false
+    },
+    {
+      "prompt": "Hamas launched a surprise attack on Israel in",
+      "expected": [
+        "2023",
+        "October"
+      ],
+      "era": "post-cutoff",
+      "response": "the Gaza Strip on Thursday, killing two Israeli soldiers and wounding seven others, the military said.\n\nThe attack, which was launched from the southern Gaza Strip, was the first since the two sides",
+      "correct": false
+    },
+    {
+      "prompt": "Sam Altman was briefly fired and reinstated as OpenAI CEO in",
+      "expected": [
+        "2023",
+        "November"
+      ],
+      "era": "post-cutoff",
+      "response": "January, but he was fired again in February.\n\nThe company has been under fire for its controversial AI research, which has been criticized for its lack of transparency and its potential to be used for",
+      "correct": false
+    },
+    {
+      "prompt": "A Japan Airlines plane collided with a coast guard aircraft at Haneda Airport in",
+      "expected": [
+        "2024",
+        "January"
+      ],
+      "era": "post-cutoff",
+      "response": "Tokyo on Friday, injuring the coast guard pilot and a passenger, the Japan Coast Guard said.\n\nThe coast guard said the coast guard plane was on a routine training flight when it collided with the",
+      "correct": false
+    },
+    {
+      "prompt": "Donald Trump survived an assassination attempt at a rally in",
+      "expected": [
+        "2024",
+        "July"
+      ],
+      "era": "post-cutoff",
+      "response": "Florida on Saturday night, but the president-elect is still facing a barrage of criticism from the left and right.\n\nTrump was speaking at a rally in Orlando, Florida, when a man in",
+      "correct": false
+    },
+    {
+      "prompt": "Joe Biden withdrew from the 2024 presidential race in",
+      "expected": [
+        "2024",
+        "July"
+      ],
+      "era": "post-cutoff",
+      "response": "a speech on Tuesday, saying he would not run for president again.\n\n\"I'm not running for president of the United States,\" Biden said in a speech at the University of Delaware. \"",
+      "correct": false
+    },
+    {
+      "prompt": "Donald Trump won the 2024 US presidential election in",
+      "expected": [
+        "2024",
+        "November"
+      ],
+      "era": "post-cutoff",
+      "response": "a landslide, according to the latest projections from the Associated Press.\n\nThe AP's projection puts Mr Trump ahead of Joe Biden by more than 5 million votes, with more than 90% of the",
+      "correct": false
+    },
+    {
+      "prompt": "Bashar al-Assad's government in Syria fell in",
+      "expected": [
+        "2024",
+        "December"
+      ],
+      "era": "post-cutoff",
+      "response": "April, and the country's civil war has been raging ever since. But the Syrian president's regime is not the only one that has been fighting for its survival.\n\nThe Islamic State of Iraq",
+      "correct": false
+    },
+    {
+      "prompt": "The Chinese AI startup DeepSeek released a model that shook global markets in",
+      "expected": [
+        "2025",
+        "January"
+      ],
+      "era": "post-cutoff",
+      "response": "2018. The company’s DeepMind-trained neural network was able to beat the world’s best human chess players, and it was able to beat the world’s best Go",
+      "correct": false
+    },
+    {
+      "prompt": "A magnitude 7.7 earthquake struck Myanmar in",
+      "expected": [
+        "2025",
+        "March"
+      ],
+      "era": "post-cutoff",
+      "response": "the early hours of Sunday, the US Geological Survey said, but there were no immediate reports of damage or casualties.\n\nThe epicentre of the quake was in the western state of Kach",
+      "correct": false
+    },
+    {
+      "prompt": "The Titan submersible imploded during a dive to the Titanic wreck in",
+      "expected": [
+        "2023",
+        "June"
+      ],
+      "era": "post-cutoff",
+      "response": "April 1912. The submersible was designed to be a replacement for the Titanic's original submersible, the RMS Titanic. The Titan was a much larger submersible, capable of carrying",
+      "correct": false
+    },
+    {
+      "prompt": "Barbie and Oppenheimer both premiered in theaters in",
+      "expected": [
+        "2023",
+        "July"
+      ],
+      "era": "post-cutoff",
+      "response": "the same year.\n\nBarbie and Oppenheimer both premiered in theaters in the same year.\n\nBarbie and Oppenheimer both premiered in theaters in the same year.",
+      "correct": false
+    },
+    {
+      "prompt": "A massive wildfire devastated Lahaina, Maui, Hawaii in",
+      "expected": [
+        "2023",
+        "August"
+      ],
+      "era": "post-cutoff",
+      "response": "the early hours of August 18, 2018. The fire was so large that it destroyed the entire town of Lahaina, and forced the evacuation of the entire island.\n\nThe fire was so large",
+      "correct": true
+    },
+    {
+      "prompt": "A total solar eclipse crossed North America in",
+      "expected": [
+        "2024",
+        "April"
+      ],
+      "era": "post-cutoff",
+      "response": "August 2017.\n\nThe total solar eclipse of August 21, 2017, was the first to cross the continental United States since 1979. The eclipse was visible from the Pacific Northwest to the Atlantic coast,",
+      "correct": false
+    },
+    {
+      "prompt": "The Summer Olympics were held in Paris in",
+      "expected": [
+        "2024"
+      ],
+      "era": "post-cutoff",
+      "response": "1924. The Games were held in the summer because of the heat. The Games were held in the summer because of the heat.\n\nThe Summer Olympics were held in Paris in 1924. The Games",
+      "correct": false
+    },
+    {
+      "prompt": "A CrowdStrike software update caused a massive global IT outage in",
+      "expected": [
+        "2024",
+        "July"
+      ],
+      "era": "post-cutoff",
+      "response": "the early hours of Friday morning, according to a report from The New York Times.\n\nThe outage, which affected more than 100,000 customers, was caused by a software update that was supposed",
+      "correct": false
+    },
+    {
+      "prompt": "Pope Francis died in",
+      "expected": [
+        "2025",
+        "April"
+      ],
+      "era": "post-cutoff",
+      "response": "his sleep at the age of 84, the Vatican said on Wednesday, in the first official confirmation of his death.\n\nThe pontiff, who had been in poor health for years, died in",
+      "correct": false
+    },
+    {
+      "prompt": "TikTok briefly went dark in the United States due to a ban in",
+      "expected": [
+        "2025",
+        "January"
+      ],
+      "era": "post-cutoff",
+      "response": "China\nTikTok briefly went dark in the United States on Sunday, according to a report from The Verge.\nThe app was down for about an hour, according to the report, which said",
+      "correct": false
+    }
+  ]
+}

@@ -1,0 +1,919 @@
+{
+  "level_id": 2,
+  "scenario_id": "medication_causal",
+  "display_sentence": "This medication is not safe for pregnant women.",
+  "tokens": [
+    {
+      "id": 0,
+      "text": "medication",
+      "category": "content",
+      "default_weight": 0.212,
+      "draggable": true,
+      "is_key_token": false
+    },
+    {
+      "id": 1,
+      "text": "is",
+      "category": "function",
+      "default_weight": 0.216,
+      "draggable": true,
+      "is_key_token": false
+    },
+    {
+      "id": 2,
+      "text": "not",
+      "category": "content",
+      "default_weight": 0.136,
+      "draggable": true,
+      "is_key_token": true
+    },
+    {
+      "id": 3,
+      "text": "safe",
+      "category": "content",
+      "default_weight": 0.232,
+      "draggable": true,
+      "is_key_token": true
+    },
+    {
+      "id": 4,
+      "text": "for",
+      "category": "function",
+      "default_weight": 0.326,
+      "draggable": true,
+      "is_key_token": false
+    },
+    {
+      "id": 5,
+      "text": "pregnant",
+      "category": "content",
+      "default_weight": 0.124,
+      "draggable": true,
+      "is_key_token": false
+    },
+    {
+      "id": 6,
+      "text": "women",
+      "category": "content",
+      "default_weight": 0.389,
+      "draggable": true,
+      "is_key_token": false
+    }
+  ],
+  "intervention_tokens": [
+    "not",
+    "safe"
+  ],
+  "intervention_states": [
+    {
+      "state_id": "not_1_0x",
+      "token": "not",
+      "multiplier": 1.0,
+      "token_weights": [
+        {
+          "text": "This",
+          "weight": 1.0
+        },
+        {
+          "text": "medication",
+          "weight": 0.212
+        },
+        {
+          "text": "is",
+          "weight": 0.216
+        },
+        {
+          "text": "not",
+          "weight": 0.136
+        },
+        {
+          "text": "safe",
+          "weight": 0.232
+        },
+        {
+          "text": "for",
+          "weight": 0.326
+        },
+        {
+          "text": "pregnant",
+          "weight": 0.124
+        },
+        {
+          "text": "women",
+          "weight": 0.389
+        }
+      ],
+      "output": {
+        "yes_prob": 0.259,
+        "no_prob": 0.215,
+        "is_correct": false
+      },
+      "display": {
+        "top_attention_tokens": [
+          "This",
+          "women",
+          "for"
+        ],
+        "prediction_label": "Safe for pregnant women",
+        "prediction_note": "Model predicts: Yes (25.9%)"
+      }
+    },
+    {
+      "state_id": "not_3_0x",
+      "token": "not",
+      "multiplier": 3.0,
+      "token_weights": [
+        {
+          "text": "This",
+          "weight": 1.0
+        },
+        {
+          "text": "medication",
+          "weight": 0.213
+        },
+        {
+          "text": "is",
+          "weight": 0.182
+        },
+        {
+          "text": "not",
+          "weight": 0.167
+        },
+        {
+          "text": "safe",
+          "weight": 0.225
+        },
+        {
+          "text": "for",
+          "weight": 0.303
+        },
+        {
+          "text": "pregnant",
+          "weight": 0.122
+        },
+        {
+          "text": "women",
+          "weight": 0.379
+        }
+      ],
+      "output": {
+        "yes_prob": 0.258,
+        "no_prob": 0.215,
+        "is_correct": false
+      },
+      "display": {
+        "top_attention_tokens": [
+          "This",
+          "women",
+          "for"
+        ],
+        "prediction_label": "Safe for pregnant women",
+        "prediction_note": "Model predicts: Yes (25.8%)"
+      }
+    },
+    {
+      "state_id": "not_6_0x",
+      "token": "not",
+      "multiplier": 6.0,
+      "token_weights": [
+        {
+          "text": "This",
+          "weight": 1.0
+        },
+        {
+          "text": "medication",
+          "weight": 0.214
+        },
+        {
+          "text": "is",
+          "weight": 0.178
+        },
+        {
+          "text": "not",
+          "weight": 0.199
+        },
+        {
+          "text": "safe",
+          "weight": 0.22
+        },
+        {
+          "text": "for",
+          "weight": 0.282
+        },
+        {
+          "text": "pregnant",
+          "weight": 0.119
+        },
+        {
+          "text": "women",
+          "weight": 0.375
+        }
+      ],
+      "output": {
+        "yes_prob": 0.253,
+        "no_prob": 0.213,
+        "is_correct": false
+      },
+      "display": {
+        "top_attention_tokens": [
+          "This",
+          "women",
+          "for"
+        ],
+        "prediction_label": "Safe for pregnant women",
+        "prediction_note": "Model predicts: Yes (25.3%)"
+      }
+    },
+    {
+      "state_id": "not_10_0x",
+      "token": "not",
+      "multiplier": 10.0,
+      "token_weights": [
+        {
+          "text": "This",
+          "weight": 1.0
+        },
+        {
+          "text": "medication",
+          "weight": 0.213
+        },
+        {
+          "text": "is",
+          "weight": 0.175
+        },
+        {
+          "text": "not",
+          "weight": 0.253
+        },
+        {
+          "text": "safe",
+          "weight": 0.211
+        },
+        {
+          "text": "for",
+          "weight": 0.251
+        },
+        {
+          "text": "pregnant",
+          "weight": 0.115
+        },
+        {
+          "text": "women",
+          "weight": 0.368
+        }
+      ],
+      "output": {
+        "yes_prob": 0.236,
+        "no_prob": 0.212,
+        "is_correct": false
+      },
+      "display": {
+        "top_attention_tokens": [
+          "This",
+          "women",
+          "not"
+        ],
+        "prediction_label": "Safe for pregnant women",
+        "prediction_note": "Model predicts: Yes (23.6%)"
+      }
+    },
+    {
+      "state_id": "not_20_0x",
+      "token": "not",
+      "multiplier": 20.0,
+      "token_weights": [
+        {
+          "text": "This",
+          "weight": 1.0
+        },
+        {
+          "text": "medication",
+          "weight": 0.213
+        },
+        {
+          "text": "is",
+          "weight": 0.173
+        },
+        {
+          "text": "not",
+          "weight": 0.306
+        },
+        {
+          "text": "safe",
+          "weight": 0.203
+        },
+        {
+          "text": "for",
+          "weight": 0.23
+        },
+        {
+          "text": "pregnant",
+          "weight": 0.112
+        },
+        {
+          "text": "women",
+          "weight": 0.356
+        }
+      ],
+      "output": {
+        "yes_prob": 0.182,
+        "no_prob": 0.21,
+        "is_correct": true
+      },
+      "display": {
+        "top_attention_tokens": [
+          "This",
+          "women",
+          "not"
+        ],
+        "prediction_label": "NOT safe for pregnant women",
+        "prediction_note": "Model predicts: No (21.0%)"
+      }
+    },
+    {
+      "state_id": "not_30_0x",
+      "token": "not",
+      "multiplier": 30.0,
+      "token_weights": [
+        {
+          "text": "This",
+          "weight": 1.0
+        },
+        {
+          "text": "medication",
+          "weight": 0.212
+        },
+        {
+          "text": "is",
+          "weight": 0.172
+        },
+        {
+          "text": "not",
+          "weight": 0.344
+        },
+        {
+          "text": "safe",
+          "weight": 0.198
+        },
+        {
+          "text": "for",
+          "weight": 0.223
+        },
+        {
+          "text": "pregnant",
+          "weight": 0.112
+        },
+        {
+          "text": "women",
+          "weight": 0.342
+        }
+      ],
+      "output": {
+        "yes_prob": 0.128,
+        "no_prob": 0.198,
+        "is_correct": true
+      },
+      "display": {
+        "top_attention_tokens": [
+          "This",
+          "not",
+          "women"
+        ],
+        "prediction_label": "NOT safe for pregnant women",
+        "prediction_note": "Model predicts: No (19.8%)"
+      }
+    },
+    {
+      "state_id": "safe_1_0x",
+      "token": "safe",
+      "multiplier": 1.0,
+      "token_weights": [
+        {
+          "text": "This",
+          "weight": 1.0
+        },
+        {
+          "text": "medication",
+          "weight": 0.212
+        },
+        {
+          "text": "is",
+          "weight": 0.216
+        },
+        {
+          "text": "not",
+          "weight": 0.136
+        },
+        {
+          "text": "safe",
+          "weight": 0.232
+        },
+        {
+          "text": "for",
+          "weight": 0.326
+        },
+        {
+          "text": "pregnant",
+          "weight": 0.124
+        },
+        {
+          "text": "women",
+          "weight": 0.389
+        }
+      ],
+      "output": {
+        "yes_prob": 0.259,
+        "no_prob": 0.215,
+        "is_correct": false
+      },
+      "display": {
+        "top_attention_tokens": [
+          "This",
+          "women",
+          "for"
+        ],
+        "prediction_label": "Safe for pregnant women",
+        "prediction_note": "Model predicts: Yes (25.9%)"
+      }
+    },
+    {
+      "state_id": "safe_3_0x",
+      "token": "safe",
+      "multiplier": 3.0,
+      "token_weights": [
+        {
+          "text": "This",
+          "weight": 1.0
+        },
+        {
+          "text": "medication",
+          "weight": 0.205
+        },
+        {
+          "text": "is",
+          "weight": 0.195
+        },
+        {
+          "text": "not",
+          "weight": 0.117
+        },
+        {
+          "text": "safe",
+          "weight": 0.42
+        },
+        {
+          "text": "for",
+          "weight": 0.257
+        },
+        {
+          "text": "pregnant",
+          "weight": 0.116
+        },
+        {
+          "text": "women",
+          "weight": 0.338
+        }
+      ],
+      "output": {
+        "yes_prob": 0.247,
+        "no_prob": 0.206,
+        "is_correct": false
+      },
+      "display": {
+        "top_attention_tokens": [
+          "This",
+          "safe",
+          "women"
+        ],
+        "prediction_label": "Safe for pregnant women",
+        "prediction_note": "Model predicts: Yes (24.7%)"
+      }
+    },
+    {
+      "state_id": "safe_6_0x",
+      "token": "safe",
+      "multiplier": 6.0,
+      "token_weights": [
+        {
+          "text": "This",
+          "weight": 1.0
+        },
+        {
+          "text": "medication",
+          "weight": 0.196
+        },
+        {
+          "text": "is",
+          "weight": 0.161
+        },
+        {
+          "text": "not",
+          "weight": 0.089
+        },
+        {
+          "text": "safe",
+          "weight": 0.716
+        },
+        {
+          "text": "for",
+          "weight": 0.189
+        },
+        {
+          "text": "pregnant",
+          "weight": 0.106
+        },
+        {
+          "text": "women",
+          "weight": 0.284
+        }
+      ],
+      "output": {
+        "yes_prob": 0.16,
+        "no_prob": 0.131,
+        "is_correct": false
+      },
+      "display": {
+        "top_attention_tokens": [
+          "This",
+          "safe",
+          "women"
+        ],
+        "prediction_label": "Safe for pregnant women",
+        "prediction_note": "Model predicts: Yes (16.0%)"
+      }
+    },
+    {
+      "state_id": "safe_10_0x",
+      "token": "safe",
+      "multiplier": 10.0,
+      "token_weights": [
+        {
+          "text": "This",
+          "weight": 1.0
+        },
+        {
+          "text": "medication",
+          "weight": 0.195
+        },
+        {
+          "text": "is",
+          "weight": 0.148
+        },
+        {
+          "text": "not",
+          "weight": 0.078
+        },
+        {
+          "text": "safe",
+          "weight": 0.826
+        },
+        {
+          "text": "for",
+          "weight": 0.172
+        },
+        {
+          "text": "pregnant",
+          "weight": 0.099
+        },
+        {
+          "text": "women",
+          "weight": 0.259
+        }
+      ],
+      "output": {
+        "yes_prob": 0.019,
+        "no_prob": 0.022,
+        "is_correct": true
+      },
+      "display": {
+        "top_attention_tokens": [
+          "This",
+          "safe",
+          "women"
+        ],
+        "prediction_label": "NOT safe for pregnant women",
+        "prediction_note": "Model predicts: No (2.2%)"
+      }
+    },
+    {
+      "state_id": "safe_20_0x",
+      "token": "safe",
+      "multiplier": 20.0,
+      "token_weights": [
+        {
+          "text": "This",
+          "weight": 1.0
+        },
+        {
+          "text": "medication",
+          "weight": 0.196
+        },
+        {
+          "text": "is",
+          "weight": 0.147
+        },
+        {
+          "text": "not",
+          "weight": 0.077
+        },
+        {
+          "text": "safe",
+          "weight": 0.873
+        },
+        {
+          "text": "for",
+          "weight": 0.166
+        },
+        {
+          "text": "pregnant",
+          "weight": 0.094
+        },
+        {
+          "text": "women",
+          "weight": 0.24
+        }
+      ],
+      "output": {
+        "yes_prob": 0.001,
+        "no_prob": 0.001,
+        "is_correct": true
+      },
+      "display": {
+        "top_attention_tokens": [
+          "This",
+          "safe",
+          "women"
+        ],
+        "prediction_label": "NOT safe for pregnant women",
+        "prediction_note": "Model predicts: No (0.1%)"
+      }
+    },
+    {
+      "state_id": "safe_30_0x",
+      "token": "safe",
+      "multiplier": 30.0,
+      "token_weights": [
+        {
+          "text": "This",
+          "weight": 1.0
+        },
+        {
+          "text": "medication",
+          "weight": 0.196
+        },
+        {
+          "text": "is",
+          "weight": 0.147
+        },
+        {
+          "text": "not",
+          "weight": 0.077
+        },
+        {
+          "text": "safe",
+          "weight": 0.894
+        },
+        {
+          "text": "for",
+          "weight": 0.164
+        },
+        {
+          "text": "pregnant",
+          "weight": 0.091
+        },
+        {
+          "text": "women",
+          "weight": 0.231
+        }
+      ],
+      "output": {
+        "yes_prob": 0.0,
+        "no_prob": 0.0,
+        "is_correct": true
+      },
+      "display": {
+        "top_attention_tokens": [
+          "This",
+          "safe",
+          "women"
+        ],
+        "prediction_label": "NOT safe for pregnant women",
+        "prediction_note": "Model predicts: No (0.0%)"
+      }
+    }
+  ],
+  "sweep_grids": {
+    "not_x_safe": {
+      "1.0": {
+        "1.0": {
+          "Yes": 0.259,
+          "No": 0.2147,
+          "is_correct": false
+        },
+        "3.0": {
+          "Yes": 0.2467,
+          "No": 0.2062,
+          "is_correct": false
+        },
+        "6.0": {
+          "Yes": 0.1602,
+          "No": 0.1307,
+          "is_correct": false
+        },
+        "10.0": {
+          "Yes": 0.0192,
+          "No": 0.0215,
+          "is_correct": true
+        },
+        "20.0": {
+          "Yes": 0.0009,
+          "No": 0.0011,
+          "is_correct": true
+        },
+        "30.0": {
+          "Yes": 0.0003,
+          "No": 0.0004,
+          "is_correct": true
+        }
+      },
+      "3.0": {
+        "1.0": {
+          "Yes": 0.2576,
+          "No": 0.2153,
+          "is_correct": false
+        },
+        "3.0": {
+          "Yes": 0.2502,
+          "No": 0.2059,
+          "is_correct": false
+        },
+        "6.0": {
+          "Yes": 0.1794,
+          "No": 0.1387,
+          "is_correct": false
+        },
+        "10.0": {
+          "Yes": 0.0233,
+          "No": 0.0257,
+          "is_correct": true
+        },
+        "20.0": {
+          "Yes": 0.0009,
+          "No": 0.0011,
+          "is_correct": true
+        },
+        "30.0": {
+          "Yes": 0.0003,
+          "No": 0.0004,
+          "is_correct": true
+        }
+      },
+      "6.0": {
+        "1.0": {
+          "Yes": 0.2529,
+          "No": 0.213,
+          "is_correct": false
+        },
+        "3.0": {
+          "Yes": 0.251,
+          "No": 0.2081,
+          "is_correct": false
+        },
+        "6.0": {
+          "Yes": 0.2368,
+          "No": 0.1589,
+          "is_correct": false
+        },
+        "10.0": {
+          "Yes": 0.1021,
+          "No": 0.0814,
+          "is_correct": false
+        },
+        "20.0": {
+          "Yes": 0.0009,
+          "No": 0.0012,
+          "is_correct": true
+        },
+        "30.0": {
+          "Yes": 0.0003,
+          "No": 0.0004,
+          "is_correct": true
+        }
+      },
+      "10.0": {
+        "1.0": {
+          "Yes": 0.2363,
+          "No": 0.2118,
+          "is_correct": false
+        },
+        "3.0": {
+          "Yes": 0.236,
+          "No": 0.2083,
+          "is_correct": false
+        },
+        "6.0": {
+          "Yes": 0.2373,
+          "No": 0.1631,
+          "is_correct": false
+        },
+        "10.0": {
+          "Yes": 0.21,
+          "No": 0.1235,
+          "is_correct": false
+        },
+        "20.0": {
+          "Yes": 0.0034,
+          "No": 0.0041,
+          "is_correct": true
+        },
+        "30.0": {
+          "Yes": 0.0003,
+          "No": 0.0004,
+          "is_correct": true
+        }
+      },
+      "20.0": {
+        "1.0": {
+          "Yes": 0.182,
+          "No": 0.2096,
+          "is_correct": true
+        },
+        "3.0": {
+          "Yes": 0.1819,
+          "No": 0.2062,
+          "is_correct": true
+        },
+        "6.0": {
+          "Yes": 0.1917,
+          "No": 0.1614,
+          "is_correct": false
+        },
+        "10.0": {
+          "Yes": 0.1814,
+          "No": 0.1227,
+          "is_correct": false
+        },
+        "20.0": {
+          "Yes": 0.0913,
+          "No": 0.0643,
+          "is_correct": false
+        },
+        "30.0": {
+          "Yes": 0.0152,
+          "No": 0.0186,
+          "is_correct": true
+        }
+      },
+      "30.0": {
+        "1.0": {
+          "Yes": 0.1279,
+          "No": 0.1982,
+          "is_correct": true
+        },
+        "3.0": {
+          "Yes": 0.1281,
+          "No": 0.1937,
+          "is_correct": true
+        },
+        "6.0": {
+          "Yes": 0.137,
+          "No": 0.1528,
+          "is_correct": true
+        },
+        "10.0": {
+          "Yes": 0.135,
+          "No": 0.1173,
+          "is_correct": false
+        },
+        "20.0": {
+          "Yes": 0.0789,
+          "No": 0.0634,
+          "is_correct": false
+        },
+        "30.0": {
+          "Yes": 0.0163,
+          "No": 0.0207,
+          "is_correct": true
+        }
+      }
+    }
+  },
+  "ui_strings": {
+    "panel_header": "Tokens with highest attention:",
+    "output_header": "Given this input, the model predicts:",
+    "hint": "Try adjusting 'not' or 'safe' — do they pull in opposite directions?"
+  },
+  "metadata": {
+    "source": "gpt2-large",
+    "layer": 35,
+    "multipliers_tested": [
+      1.0,
+      3.0,
+      6.0,
+      10.0,
+      20.0,
+      30.0
+    ],
+    "version": "3.0"
+  }
+}

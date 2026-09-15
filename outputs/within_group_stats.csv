@@ -1,0 +1,3 @@
+Group,N (pairs),Pre M,Post M,Shapiro-Wilk p (diff),Diff normal (p>.05),Recommended test,Paired t-test stat,Paired t-test p,Wilcoxon W stat,Wilcoxon signed-rank p,Cohen's d_z
+Control,25,6.76,9.24,0.3430074725837212,True,Paired t-test,-6.467,1.093596678340715e-06,11.0,6.337019501432859e-05,1.29
+Experimental,25,7.6,11.2,0.5109899630114865,True,Paired t-test,-9.738,8.234156699722881e-10,0.0,1.6641949268452755e-05,1.95

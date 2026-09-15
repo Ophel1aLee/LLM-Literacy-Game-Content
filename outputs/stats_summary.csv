@@ -1,0 +1,14 @@
+Measure,Control M,Experimental M,Welch p,Cohen's d,Mann-Whitney p
+Pre-test score (/16),6.76,7.6,0.261,0.32,
+Post-test score (/16),9.24,11.2,0.018,0.69,
+Gain (Post - Pre),2.48,3.6,0.041,0.59,
+TLX - Workload (1-5),3.16,1.88,0.0,-1.37,0.0
+TLX - Effort (1-5),2.68,1.8,0.002,-0.9,0.002
+TLX - Frustration (1-5),2.48,1.56,0.002,-0.92,0.001
+IMI - Interesting (1-5),3.44,4.12,0.035,0.61,0.037
+"IMI - Boring, reverse (1-5)",2.56,1.68,0.008,-0.79,0.01
+IMI - Enjoy (1-5),3.76,3.76,1.0,0.0,0.877
+IMI - Willing to Redo (1-5),3.52,3.4,0.758,-0.09,1.0
+IMI - Useful for Understanding AI (1-5),4.0,4.48,0.11,0.46,0.042
+Trust - Answer Correct (1-5),2.88,2.8,0.76,-0.09,0.548
+Trust - Tone Fluent (1-5),2.96,2.72,0.452,-0.21,0.3

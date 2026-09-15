@@ -1,0 +1,519 @@
+{
+  "id": "supermarket_ai",
+  "facts": "A major supermarket chain announced the expansion of AI self-checkout to all stores nationwide. 40% of existing cashier positions will be eliminated. The company claims the move will reduce operating costs and may lower prices for consumers. Trade unions have raised concerns about reemployment prospects for affected workers.",
+  "combos": [
+    {
+      "id": "worker_alarmed_straightforward",
+      "audience": "worker",
+      "tone": "alarmed",
+      "engagement": "straightforward",
+      "instruction_fragments": {
+        "audience": "Write for supermarket workers and trade union members who are worried about job losses.",
+        "tone": "Use an alarmed, critical tone.",
+        "engagement": "State the news plainly, no rhetorical tricks."
+      },
+      "generated": [
+        "Supermarket Chain Eliminates 40% of Cashier Jobs with Nationwide AI Self-Checkout Expansion: Unions Warn of Unemployment Crisis",
+        "40% of Supermarket Cashier Jobs Eliminated Nationwide as AI Self-Checkout Rolls Out; Trade Unions Warn of Unemployment Crisis",
+        "Supermarket Chain Eliminates 40% of Cashier Jobs with Nationwide AI Self-Checkout Rollout: Unions Warn of Unemployment Crisis",
+        "Supermarket Chain Eliminates 40% of Cashier Jobs Nationwide with AI Self-Checkout, Trade Unions Warn of Unemployment Crisis",
+        "Supermarket Chain Eliminates 40% of Cashier Jobs with Nationwide AI Self-Checkout Rollout: Unions Warn of Unemployment Crisis"
+      ],
+      "selected": []
+    },
+    {
+      "id": "worker_alarmed_breaking",
+      "audience": "worker",
+      "tone": "alarmed",
+      "engagement": "breaking",
+      "instruction_fragments": {
+        "audience": "Write for supermarket workers and trade union members who are worried about job losses.",
+        "tone": "Use an alarmed, critical tone.",
+        "engagement": "Frame it as breaking, urgent news demanding immediate attention."
+      },
+      "generated": [
+        "Urgent: Supermarket Giant Eliminates 40% of Cashier Jobs with AI Self-Checkout Nationwide - Trade Unions Warn of Mass Unemployment",
+        "Supermarket Chain Eliminates 40% of Cashier Jobs with Nationwide AI Rollout: Urgent - Trade Unions Warn of Unemployment Crisis for Workers",
+        "Urgent: Supermarket Giant Eliminates 40% of Cashier Jobs Nationwide with AI Self-Checkout Expansion - Unions Warn of Mass Unem",
+        "Supermarket Chain's Nationwide AI Expansion Eliminates 40% of Cashier Jobs: Trade Unions Warn of Unemployment Crisis for Workers",
+        "Supermarket Chain Eliminates 40% of Cashier Jobs Nationwide with AI Self-Checkout Expansion: Urgent - Trade Unions Warn of Unemployment Cris"
+      ],
+      "selected": []
+    },
+    {
+      "id": "worker_alarmed_question",
+      "audience": "worker",
+      "tone": "alarmed",
+      "engagement": "question",
+      "instruction_fragments": {
+        "audience": "Write for supermarket workers and trade union members who are worried about job losses.",
+        "tone": "Use an alarmed, critical tone.",
+        "engagement": "Phrase the headline as a provocative question that hooks the reader."
+      },
+      "generated": [
+        "40% of Supermarket Cashier Jobs Eliminated: Will AI Self-Checkout Lead to Unemployment Crisis for Workers?",
+        "Is the AI Self-Checkout Expansion a Disguised Disaster for Supermarket Workers and Their Unions? 40% Job Losses loom as Company Promises Lower",
+        "40% of Supermarket Cashier Jobs Eliminated Nationwide: Where Will Displaced Workers Go?",
+        "Is the Future of Supermarket Workers a Line of Self-Checkout Kiosks and Unemployment?",
+        "40% of Supermarket Jobs Eliminated: Will AI Self-Checkout Leave Workers in the Aisle?"
+      ],
+      "selected": []
+    },
+    {
+      "id": "worker_optimistic_straightforward",
+      "audience": "worker",
+      "tone": "optimistic",
+      "engagement": "straightforward",
+      "instruction_fragments": {
+        "audience": "Write for supermarket workers and trade union members who are worried about job losses.",
+        "tone": "Use an optimistic, enthusiastic tone.",
+        "engagement": "State the news plainly, no rhetorical tricks."
+      },
+      "generated": [
+        "Supermarket Chain Expands AI Self-Checkout Nationwide, 40% Fewer Cashier Positions: Union Members, Your New Opportunities Await!",
+        "Supermarket Chain Brings AI Self-Checkout Nationwide, 40% Fewer Cashier Jobs; Union Urges Training for New Roles Amidst Cost Savings",
+        "Supermarket Chain Rolls Out AI Self-Checkout Nationwide, 40% Cashier Jobs Affected: Unions Raise Employment Concerns",
+        "Supermarket Chain Brings AI Self-Checkout to All Stores, 40% Fewer Cashier Jobs; Union Urges New Opportunities",
+        "Supermarket Chain Nationwide Rolls Out AI Self-Checkout, Affects 40% of Cashier Jobs; Union Addresses Reemployment Concerns"
+      ],
+      "selected": []
+    },
+    {
+      "id": "worker_optimistic_breaking",
+      "audience": "worker",
+      "tone": "optimistic",
+      "engagement": "breaking",
+      "instruction_fragments": {
+        "audience": "Write for supermarket workers and trade union members who are worried about job losses.",
+        "tone": "Use an optimistic, enthusiastic tone.",
+        "engagement": "Frame it as breaking, urgent news demanding immediate attention."
+      },
+      "generated": [
+        "Revolutionary AI Self-Checkout Expansion: 40% Fewer Cashier Jobs, Lower Prices – Trade Union Urges Swift Action on Reemployment",
+        "Revolution in Checkout Aisles: AI Self-Checkout Goes Nationwide - 40% Job Cut, Trade Unions Raise Concerns, But Company Prom",
+        "Revolutionary AI Self-Checkout Expansion: 40% Supermarket Job Cuts - Company Vows Lower Prices, Trade Unions Call for Action",
+        "Revolutionary AI Self-Checkout Expansion: 40% Fewer Cashier Jobs, Lower Prices - Trade Unions Call for Action",
+        "Revolutionary AI Self-Checkout Expansion: 40% Fewer Cashier Jobs, Lower Prices, Unions Urge Proactive Job Training Solutions"
+      ],
+      "selected": []
+    },
+    {
+      "id": "worker_optimistic_question",
+      "audience": "worker",
+      "tone": "optimistic",
+      "engagement": "question",
+      "instruction_fragments": {
+        "audience": "Write for supermarket workers and trade union members who are worried about job losses.",
+        "tone": "Use an optimistic, enthusiastic tone.",
+        "engagement": "Phrase the headline as a provocative question that hooks the reader."
+      },
+      "generated": [
+        "Could AI Self-Checkout Lead to Lower Prices and New Opportunities for All? Supermarket Chain Announces Nationwide Expansion, Affecting 40% of Cash",
+        "Revolution in Aisles: Will Robots Create More Jobs than They Eliminate as Supermarket AI Takes Over and Trade Unions Call for Calm?",
+        "Could AI Self-Checkout Savings Lead to Lower Prices and New Opportunities for All? Supermarket Chain Announces Nationwide Expansion, 40% Cashier Pos",
+        "Revolution in Aisles: Will AI Self-Checkout Create New Jobs for Supermarket Workers or Eliminate Them Forever?",
+        "Revolution in Aisles: Will AI Self-Checkout Create New Opportunities for Retail Workers, or Eliminate Them Forever?"
+      ],
+      "selected": []
+    },
+    {
+      "id": "worker_neutral_straightforward",
+      "audience": "worker",
+      "tone": "neutral",
+      "engagement": "straightforward",
+      "instruction_fragments": {
+        "audience": "Write for supermarket workers and trade union members who are worried about job losses.",
+        "tone": "Use a neutral, measured, factual tone.",
+        "engagement": "State the news plainly, no rhetorical tricks."
+      },
+      "generated": [
+        "Supermarket Chain Implementing Nationwide AI Self-Checkout, Eliminating 40% of Cashier Positions: Concerns Raised Over Reemployment Prospect",
+        "Supermarket Chain Implementing Nationwide AI Self-Checkout, Eliminating 40% of Cashier Positions: Concerns Raised Over Reemployment",
+        "Supermarket Chain Implementing Nationwide AI Self-Checkout, Eliminating 40% of Cashier Positions; Trade Unions Raise Concerns",
+        "Supermarket Chain Implementing Nationwide AI Self-Checkout, Eliminating 40% of Cashier Positions: Trade Unions Raise Concerns Over Reemployment",
+        "Supermarket Chain Automates Checkouts, Eliminates 40% of Cashier Positions Nationwide"
+      ],
+      "selected": []
+    },
+    {
+      "id": "worker_neutral_breaking",
+      "audience": "worker",
+      "tone": "neutral",
+      "engagement": "breaking",
+      "instruction_fragments": {
+        "audience": "Write for supermarket workers and trade union members who are worried about job losses.",
+        "tone": "Use a neutral, measured, factual tone.",
+        "engagement": "Frame it as breaking, urgent news demanding immediate attention."
+      },
+      "generated": [
+        "Supermarket Chain Implementing Nationwide AI Self-Checkout, Eliminating 40% of Cashier Positions: Impact on Workers and Unions",
+        "Urgent: Supermarket Chain to Eliminate 40% of Cashier Positions with Nationwide AI Self-Checkout Expansion",
+        "Supermarket Giant Implementing Nationwide AI Self-Checkout, Eliminating 40% of Cashier Positions: Unemployment Concerns Amidst Operating",
+        "Supermarket Giant to Eliminate 40% of Cashier Jobs with Nationwide AI Self-Checkout Rollout: Trade Unions Raise Concerns",
+        "Supermarket Chain Eliminates 40% of Cashier Positions with Nationwide AI Self-Checkout Rollout: Unemployment Concerns for Workers Amid Cost"
+      ],
+      "selected": []
+    },
+    {
+      "id": "worker_neutral_question",
+      "audience": "worker",
+      "tone": "neutral",
+      "engagement": "question",
+      "instruction_fragments": {
+        "audience": "Write for supermarket workers and trade union members who are worried about job losses.",
+        "tone": "Use a neutral, measured, factual tone.",
+        "engagement": "Phrase the headline as a provocative question that hooks the reader."
+      },
+      "generated": [
+        "Will the Nationwide Rollout of AI Self-Checkout at Supermarkets Eliminate 40% of Cashier Jobs, and What Does This Mean for Affected Work",
+        "Will AI Self-Checkout Lead to Mass Job Cuts in Supermarkets, and What Comes Next for Displaced Workers?",
+        "Will Automation Eliminate 40% of Supermarket Cashier Jobs Nationwide: Implications for Workers and Trade Unions?",
+        "Will the Nationwide Rollout of AI Self-Checkouts at Supermarkets Lead to Mass Unemployment for Cashiers?",
+        "Will AI Self-Checkout Lead to Massive Layoffs of Supermarket Workers Nationwide? 40% of Cashier Positions Eliminated in Company-Wide Expansion"
+      ],
+      "selected": []
+    },
+    {
+      "id": "consumer_alarmed_straightforward",
+      "audience": "consumer",
+      "tone": "alarmed",
+      "engagement": "straightforward",
+      "instruction_fragments": {
+        "audience": "Write for everyday shoppers who care about prices, speed, and convenience.",
+        "tone": "Use an alarmed, critical tone.",
+        "engagement": "State the news plainly, no rhetorical tricks."
+      },
+      "generated": [
+        "Supermarket Chain Eliminates 40% of Cashier Jobs with Nationwide AI Self-Checkout Rollout: Prices May Decrease, But Where Will Displaced",
+        "Major Supermarket Chain Eliminates 40% of Cashier Jobs with Nationwide AI Self-Checkout Rollout - Consumers May Benefit from Lower Prices,",
+        "Major Supermarket Chain Eliminates 40% of Cashier Jobs with Nationwide AI Self-Checkout, Trade Unions Warn of Unemployment Concerns",
+        "Major Supermarket Chain Eliminates 40% of Cashier Jobs with Nationwide AI Self-Checkout Rollout: Prices May Decrease, but Unemployment",
+        "Major Supermarket Chain Eliminates 40% of Cashier Jobs with Nationwide AI Self-Checkout Rollout: Consumers Gain Convenience, Prices"
+      ],
+      "selected": []
+    },
+    {
+      "id": "consumer_alarmed_breaking",
+      "audience": "consumer",
+      "tone": "alarmed",
+      "engagement": "breaking",
+      "instruction_fragments": {
+        "audience": "Write for everyday shoppers who care about prices, speed, and convenience.",
+        "tone": "Use an alarmed, critical tone.",
+        "engagement": "Frame it as breaking, urgent news demanding immediate attention."
+      },
+      "generated": [
+        "Urgent: Supermarket Giant Eliminates 40% of Cashiers with AI Self-Checkout Nationwide - Prices Drop, But Where Will Displaced Workers",
+        "Urgent: Supermarket Giant Eliminates 40% of Cashiers with Nationwide AI Self-Checkout Expansion - Prices May Drop, But Where Will Displ",
+        "Urgent: Supermarket Giant Eliminates 40% of Cashiers with Nationwide AI Self-Checkout, Prices Could Drop but Unemployment Soars - Shop",
+        "Urgent: Supermarket Chain Eliminates 40% of Cashier Jobs with Nationwide AI Self-Checkout Rollout - Prices May Drop, But Where Will Dis",
+        "Urgent: Supermarket Giant Ditches Cashiers, Introduces Nationwide AI Self-Checkout, 40% Job Cuts - Prices Drop, But at What"
+      ],
+      "selected": []
+    },
+    {
+      "id": "consumer_alarmed_question",
+      "audience": "consumer",
+      "tone": "alarmed",
+      "engagement": "question",
+      "instruction_fragments": {
+        "audience": "Write for everyday shoppers who care about prices, speed, and convenience.",
+        "tone": "Use an alarmed, critical tone.",
+        "engagement": "Phrase the headline as a provocative question that hooks the reader."
+      },
+      "generated": [
+        "Is Your Self-Checkout Obligation: 40% of Cashiers Jobless as Supermarket AI Takes Over - But Will Consumers Save Enough?",
+        "Will Eliminating 40% of Cashiers to Install AI Self-Checkout Lead to Lower Prices for Consumers - Or Unemployment for Workers?",
+        "Is the Future of Grocery Checkout AI-Powered and Jobless? Supermarket Chain Eliminates 40% of Cashier Positions Nationwide - How Will It Affect",
+        "Will Eliminating 40% of Cashiers to Implement AI Self-Checkout Nationwide Lead to Lower Prices for Consumers or Jobless Workers?",
+        "Is the AI Self-Checkout Revolution a Disaster for Shoppers: 40% of Cashiers Gone, Prices Lower, but Where Are the Jobs?"
+      ],
+      "selected": []
+    },
+    {
+      "id": "consumer_optimistic_straightforward",
+      "audience": "consumer",
+      "tone": "optimistic",
+      "engagement": "straightforward",
+      "instruction_fragments": {
+        "audience": "Write for everyday shoppers who care about prices, speed, and convenience.",
+        "tone": "Use an optimistic, enthusiastic tone.",
+        "engagement": "State the news plainly, no rhetorical tricks."
+      },
+      "generated": [
+        "Supermarket Revolution: AI Self-Checkout Goes Nationwide - Lower Prices, Faster Service for Shoppers",
+        "Supermarket Revolution: AI Self-Checkout Goes Nationwide - Lower Prices, Faster Service for Shoppers!",
+        "Supermarket Giant Brings AI Self-Checkout to All Stores Nationwide, Lowers Prices for Consumers",
+        "Supermarket Giant Rolls Out AI Self-Checkout, Slashes Operating Costs, and Could Mean Lower Prices for Shoppers Nationwide",
+        "Supermarket Chain Revolutionizes Shopping: AI Self-Checkout in Every Store Nationwide - Lower Prices and Faster Service Ahead!"
+      ],
+      "selected": []
+    },
+    {
+      "id": "consumer_optimistic_breaking",
+      "audience": "consumer",
+      "tone": "optimistic",
+      "engagement": "breaking",
+      "instruction_fragments": {
+        "audience": "Write for everyday shoppers who care about prices, speed, and convenience.",
+        "tone": "Use an optimistic, enthusiastic tone.",
+        "engagement": "Frame it as breaking, urgent news demanding immediate attention."
+      },
+      "generated": [
+        "Revolutionary: AI Self-Checkout Goes Nationwide at Supermarkets - 40% Fewer Cashiers, Lower Prices for Consumers!",
+        "Revolutionary AI Self-Checkout Rolls Out Nationwide: Save Time, Cut Prices, and Embrace the Future!",
+        "Revolutionary AI Self-Checkout Expands Nationwide: Lower Prices, Faster Lines – Discover the Game-Changing Shopping Experience!",
+        "Revolutionary AI Self-Checkout Rolled Out Nationwide: Save Time, Money, and Enjoy Convenience - 40% Fewer Checkout Lines!",
+        "Revolutionary AI Self-Checkout Rollout: Lower Prices and Faster Shopping at All Supermarkets Nationwide - 40% Fewer Cashier Lines!"
+      ],
+      "selected": []
+    },
+    {
+      "id": "consumer_optimistic_question",
+      "audience": "consumer",
+      "tone": "optimistic",
+      "engagement": "question",
+      "instruction_fragments": {
+        "audience": "Write for everyday shoppers who care about prices, speed, and convenience.",
+        "tone": "Use an optimistic, enthusiastic tone.",
+        "engagement": "Phrase the headline as a provocative question that hooks the reader."
+      },
+      "generated": [
+        "Revolutionary AI Self-Checkout: Faster, Cheaper Grocery Shopping Nationwide – But What About Cashier Jobs?",
+        "Revolution in Aisles: Will AI Self-Checkout Slash Prices and Save Time for Shoppers Nationwide? 40% Fewer Cashiers, But Where Will",
+        "Revolutionary Self-Checkout: Will AI Take Over Supermarkets, Lower Prices for You?",
+        "Is Your Next Shopping Trip Faster, Cheaper, and More Convenient with AI Self-Checkout at Every Store? 40% Fewer Cashiers - What",
+        "Is Your Next Grocery Shopping Trip Faster, Cheaper, and More Convenient with AI Self-Checkout at All Stores? 40% Fewer Cash"
+      ],
+      "selected": []
+    },
+    {
+      "id": "consumer_neutral_straightforward",
+      "audience": "consumer",
+      "tone": "neutral",
+      "engagement": "straightforward",
+      "instruction_fragments": {
+        "audience": "Write for everyday shoppers who care about prices, speed, and convenience.",
+        "tone": "Use a neutral, measured, factual tone.",
+        "engagement": "State the news plainly, no rhetorical tricks."
+      },
+      "generated": [
+        "Supermarket Chain Implementing Nationwide AI Self-Checkout, Eliminating 40% of Cashier Positions, Potentially Lowering Prices",
+        "Supermarket Chain Nationswide Rolls Out AI Self-Checkout, Eliminates 40% of Cashier Positions, Potentially Lowers Prices",
+        "Supermarket Chain Extends AI Self-Checkout, Eliminates 40% of Cashier Jobs, Potentially Lowers Prices for Consumers",
+        "Supermarket Chain Implementing Nationwide AI Self-Checkout, Eliminating 40% of Cashier Positions: Potential Operating Cost Savings May Lead to Lower Prices",
+        "Supermarket Chain Implementing Nationwide AI Self-Checkout, Eliminating 40% of Cashier Positions: Potential Operating Cost Savings and Lower Prices"
+      ],
+      "selected": []
+    },
+    {
+      "id": "consumer_neutral_breaking",
+      "audience": "consumer",
+      "tone": "neutral",
+      "engagement": "breaking",
+      "instruction_fragments": {
+        "audience": "Write for everyday shoppers who care about prices, speed, and convenience.",
+        "tone": "Use a neutral, measured, factual tone.",
+        "engagement": "Frame it as breaking, urgent news demanding immediate attention."
+      },
+      "generated": [
+        "Supermarket Giant Swifts Nationwide AI Self-Checkout Implementation, Eliminates 40% of Cashier Jobs: Potential Price Drops, Faster Check",
+        "Supermarket Giant Rolls Out Nationwide AI Self-Checkouts, Eliminates 40% of Cashier Jobs: Impact on Prices and Workers Unclear",
+        "Supermarket Giant Implementing Nationwide AI Self-Checkout, Eliminating 40% of Cashier Positions: Impact on Consumer Prices and Workers Uncertain",
+        "Supermarket Giant Implementing Nationwide AI Self-Checkout, Eliminating 40% of Cashier Positions: Implications for Consumers and Workers",
+        "Supermarket Giant Implementing Nationwide AI Self-Checkout, Eliminating 40% of Cashier Positions: Impact on Consumer Prices and Worker Reemployment"
+      ],
+      "selected": []
+    },
+    {
+      "id": "consumer_neutral_question",
+      "audience": "consumer",
+      "tone": "neutral",
+      "engagement": "question",
+      "instruction_fragments": {
+        "audience": "Write for everyday shoppers who care about prices, speed, and convenience.",
+        "tone": "Use a neutral, measured, factual tone.",
+        "engagement": "Phrase the headline as a provocative question that hooks the reader."
+      },
+      "generated": [
+        "Will AI Self-Checkout and Elimination of 40% of Cashier Jobs Lead to Lower Prices for Consumers?",
+        "Will AI Self-Checkout and Storewide Expansion Lead to Lower Prices for Consumers, or Eliminate 40% of Cashier Jobs?",
+        "Will AI Self-Checkout and Elimination of Cashiers Lead to Lower Prices for Consumers?",
+        "Will AI Self-Checkout at Supermarkets Eliminate 40% of Cashiers and Lower Prices for Consumers?",
+        "Will AI Self-Checkout and Storewide Expansion Mean Lower Prices for Consumers, but Fewer Cashier Jobs?"
+      ],
+      "selected": []
+    },
+    {
+      "id": "investor_alarmed_straightforward",
+      "audience": "investor",
+      "tone": "alarmed",
+      "engagement": "straightforward",
+      "instruction_fragments": {
+        "audience": "Write for investors and business readers who care about operational efficiency and company performance.",
+        "tone": "Use an alarmed, critical tone.",
+        "engagement": "State the news plainly, no rhetorical tricks."
+      },
+      "generated": [
+        "Supermarket Giant Eliminates 40% of Cashier Jobs with Nationwide AI Self-Checkout Rollout: Impact on Operating Costs, Consumer Prices,",
+        "Supermarket Chain Eliminates 40% of Cashier Positions Nationwide with AI Self-Checkout, Ignites Unions' Concerns Over Worker Reemployment",
+        "Supermarket Chain Eliminates 40% of Cashier Positions Nationwide with AI Self-Checkout, Raising Concerns over Worker Reemployment and Oper",
+        "Supermarket Chain Eliminates 40% of Cashier Positions with Nationwide AI Self-Checkout, Igniting Union Concerns and Alarming Investors",
+        "Supermarket Chain Eliminates 40% of Cashier Positions Nationwide with AI Self-Checkout, Sparking Concerns over Worker Reemployment and Oper"
+      ],
+      "selected": []
+    },
+    {
+      "id": "investor_alarmed_breaking",
+      "audience": "investor",
+      "tone": "alarmed",
+      "engagement": "breaking",
+      "instruction_fragments": {
+        "audience": "Write for investors and business readers who care about operational efficiency and company performance.",
+        "tone": "Use an alarmed, critical tone.",
+        "engagement": "Frame it as breaking, urgent news demanding immediate attention."
+      },
+      "generated": [
+        "Supermarket Giant's Nationwide AI Self-Checkout Implementation Eliminates 40% of Cashier Jobs: Investor Alert - Operating Costs Plum",
+        "Supermarket Chain Eliminates 40% of Cashier Jobs Nationwide with AI Self-Checkout Expansion: Operational Efficiency Gains Alarm Investors, Unions",
+        "Major Supermarket Chain Eliminates 40% of Cashier Positions with Nationwide AI Self-Checkout Expansion: Immediate Operational Cost Savings, but Conc",
+        "Supermarket Giant Eliminates 40% of Cashier Jobs Nationwide with AI Self-Checkout: Investor Alert - Operational Efficiency Drive Risks Consumer",
+        "Urgent: Supermarket Chain Eliminates 40% of Cashier Jobs with Nationwide AI Self-Checkout Rollout - Operating Costs Slashed, Consumer"
+      ],
+      "selected": []
+    },
+    {
+      "id": "investor_alarmed_question",
+      "audience": "investor",
+      "tone": "alarmed",
+      "engagement": "question",
+      "instruction_fragments": {
+        "audience": "Write for investors and business readers who care about operational efficiency and company performance.",
+        "tone": "Use an alarmed, critical tone.",
+        "engagement": "Phrase the headline as a provocative question that hooks the reader."
+      },
+      "generated": [
+        "Is Eliminating 40% of Cashiers Nationwide for AI Self-Checkout a Cost-Saving Measure or a Disaster for Unemployment?",
+        "Is the Elimination of 40% of Cashiers Nationwide by This Supermarket Chain a Recipe for Unprecedented Operational Efficiency or Unjustified Job Losses",
+        "Is Eliminating 40% of Cashiers to Implement AI Self-Checkout a Short-Sighted Cost-Cutting Move by Supermarkets, Ignoring the Human Impact",
+        "Is the AI-Driven Supermarket Revolution a Cost-Saving Boon or a Job-Losing Disaster for Investors?",
+        "Will Eliminating 40% of Cashiers Nationwide to Implement AI Self-Checkout Save Supermarket Chain Billions - Or Cost Them Their Workforce and Consumer Trust?"
+      ],
+      "selected": []
+    },
+    {
+      "id": "investor_optimistic_straightforward",
+      "audience": "investor",
+      "tone": "optimistic",
+      "engagement": "straightforward",
+      "instruction_fragments": {
+        "audience": "Write for investors and business readers who care about operational efficiency and company performance.",
+        "tone": "Use an optimistic, enthusiastic tone.",
+        "engagement": "State the news plainly, no rhetorical tricks."
+      },
+      "generated": [
+        "Supermarket Chain Revolutionizes Checkout with Nationwide AI Expansion, Slashes Operating Costs by 40%",
+        "Supermarket Giant Streamlines Operations Nationwide: AI Self-Checkout Rollout Slashes Costs by 40%",
+        "Supermarket Giant Revolutionizes Checkout with Nationwide AI Rollout, Boosts Operational Efficiency and Potentially Lowers Prices for Consumers",
+        "Supermarket Chain Revolutionizes Retail with Nationwide AI Self-Checkout, Slashing Operating Costs by 40%",
+        "Major Supermarket Chain Nationwide Rolls Out AI Self-Checkout, Reducing Operating Costs by 40% and Potentially Lowering Prices for Consumers"
+      ],
+      "selected": []
+    },
+    {
+      "id": "investor_optimistic_breaking",
+      "audience": "investor",
+      "tone": "optimistic",
+      "engagement": "breaking",
+      "instruction_fragments": {
+        "audience": "Write for investors and business readers who care about operational efficiency and company performance.",
+        "tone": "Use an optimistic, enthusiastic tone.",
+        "engagement": "Frame it as breaking, urgent news demanding immediate attention."
+      },
+      "generated": [
+        "Revolutionary AI Self-Checkout Expansion: Supermarket Chain Slashes Operating Costs by 40%, Boosts Efficiency for Investors",
+        "Supermarket Chain Revolutionizes Retail with Nationwide AI Self-Checkout, Slashes Operating Costs by 40%: Investor Alert",
+        "Revolutionary AI Self-Checkout Expansion: Supermarket Giant Slashes 40% of Cashier Roles, Boosts Operating Efficiency and Potentially Lowers",
+        "Revolutionary AI Self-Checkout Expansion: Supermarket Chain Slashes Operating Costs by 40%, Sparks Efficiency Surge and Potential Price War - Investor",
+        "Supermarket Giant Revolutionizes Retail with Nationwide AI Self-Checkout, Slashing Operating Costs and Potentially Lowering Prices for Consumers: Impact on Workforce"
+      ],
+      "selected": []
+    },
+    {
+      "id": "investor_optimistic_question",
+      "audience": "investor",
+      "tone": "optimistic",
+      "engagement": "question",
+      "instruction_fragments": {
+        "audience": "Write for investors and business readers who care about operational efficiency and company performance.",
+        "tone": "Use an optimistic, enthusiastic tone.",
+        "engagement": "Phrase the headline as a provocative question that hooks the reader."
+      },
+      "generated": [
+        "Revolutionizing Retail: Will AI Self-Checkout at Major Supermarket Chain Slash Operating Costs by 40% and Boost Investor Confidence?",
+        "Revolutionizing Retail: Will AI Self-Checkout Eliminating 40% of Cashiers Nationwide Slash Operating Costs and Boost Consumer Prices?",
+        "Revolutionary AI Self-Checkout: Eliminating 40% of Cashier Positions Nationwide - Will Operating Costs Plummet and Consumer Prices Drop?",
+        "Revolution in Retail: Will AI Self-Checkout slash Operating Costs by 40% and Ignite New Consumer Savings for This Supermarket Chain?",
+        "Revolutionizing Retail: Will AI Self-Checkout at Major Supermarket Chain Eliminate 40% of Cashier Positions, Slash Operating Costs, and Del"
+      ],
+      "selected": []
+    },
+    {
+      "id": "investor_neutral_straightforward",
+      "audience": "investor",
+      "tone": "neutral",
+      "engagement": "straightforward",
+      "instruction_fragments": {
+        "audience": "Write for investors and business readers who care about operational efficiency and company performance.",
+        "tone": "Use a neutral, measured, factual tone.",
+        "engagement": "State the news plainly, no rhetorical tricks."
+      },
+      "generated": [
+        "Supermarket Chain Nationwide Implementation of AI Self-Checkout Leads to Elimination of 40% Cashier Positions, Potential Operating Cost Savings, and Trade",
+        "Supermarket Chain Implementing Nationwide AI Self-Checkout, Eliminating 40% of Cashier Positions for Cost Savings",
+        "Supermarket Chain Nationwide Rolls Out AI Self-Checkout, Eliminates 40% of Cashier Positions for Cost Savings",
+        "Supermarket Chain Nationwide Rolls Out AI Self-Checkout, Eliminates 40% of Cashier Positions, Trade Unions Raise Concerns",
+        "Supermarket Chain Nationwide Rolls Out AI Self-Checkout, Eliminates 40% of Cashier Positions, Trade Unions Raise Employment Concerns"
+      ],
+      "selected": []
+    },
+    {
+      "id": "investor_neutral_breaking",
+      "audience": "investor",
+      "tone": "neutral",
+      "engagement": "breaking",
+      "instruction_fragments": {
+        "audience": "Write for investors and business readers who care about operational efficiency and company performance.",
+        "tone": "Use a neutral, measured, factual tone.",
+        "engagement": "Frame it as breaking, urgent news demanding immediate attention."
+      },
+      "generated": [
+        "Supermarket Giant Implementing Nationwide AI Self-Checkout, Eliminating 40% of Cashier Positions: Impact on Operating Costs, Consumer Prices,",
+        "Supermarket Giant Implementing Nationwide AI Self-Checkout, Eliminating 40% of Cashier Positions: Impact on Operational Costs, Consumer Prices,",
+        "Supermarket Chain Nationwide AI Self-Checkout Implementation Eliminates 40% of Cashier Positions, Lowers Operating Costs and Potentially Prices for Consum",
+        "Supermarket Giant Implementing Nationwide AI Self-Checkout, Eliminating 40% of Cashier Positions: Cost Savings and Consumer Price Reductions Announced",
+        "Supermarket Giant Implementing Nationwide AI Self-Checkout, Eliminating 40% of Cashier Positions: Impact on Operating Costs, Consumer Prices,"
+      ],
+      "selected": []
+    },
+    {
+      "id": "investor_neutral_question",
+      "audience": "investor",
+      "tone": "neutral",
+      "engagement": "question",
+      "instruction_fragments": {
+        "audience": "Write for investors and business readers who care about operational efficiency and company performance.",
+        "tone": "Use a neutral, measured, factual tone.",
+        "engagement": "Phrase the headline as a provocative question that hooks the reader."
+      },
+      "generated": [
+        "Will AI Self-Checkout and Mass Cashier Job Cuts Boost Supermarket Profits for Shareholders?",
+        "Will AI Self-Checkout at Supermarkets Lead to Significant Operating Cost Savings and Lower Prices for Consumers, or Raise Concerns for Affect",
+        "Will AI Self-Checkout and Mass Casher Elimination Boost Supermarket Profits and Lower Consumer Prices?",
+        "Will AI Self-Checkout at Supermarkets Eliminate 40% of Cashier Jobs and Cut Operating Costs for Shareholders?",
+        "Will Automated Self-Checkout and Mass Layoffs of Cashiers Boost Supermarket Chain's Operational Efficiency and Profitability?"
+      ],
+      "selected": []
+    }
+  ]
+}

@@ -1,0 +1,567 @@
+{
+  "level_id": 2,
+  "scenario_id": "bridge_structural_cracks",
+  "display_sentence": "This bridge has cracks that were never repaired.",
+  "tokens": [
+    {
+      "id": 0,
+      "text": "bridge",
+      "category": "content",
+      "default_weight": 0.229,
+      "draggable": true,
+      "is_key_token": false
+    },
+    {
+      "id": 1,
+      "text": "has",
+      "category": "content",
+      "default_weight": 0.203,
+      "draggable": true,
+      "is_key_token": false
+    },
+    {
+      "id": 2,
+      "text": "cracks",
+      "category": "content",
+      "default_weight": 0.184,
+      "draggable": true,
+      "is_key_token": true
+    },
+    {
+      "id": 3,
+      "text": "that",
+      "category": "content",
+      "default_weight": 0.102,
+      "draggable": true,
+      "is_key_token": false
+    },
+    {
+      "id": 4,
+      "text": "were",
+      "category": "content",
+      "default_weight": 0.113,
+      "draggable": true,
+      "is_key_token": false
+    },
+    {
+      "id": 5,
+      "text": "never",
+      "category": "content",
+      "default_weight": 0.083,
+      "draggable": true,
+      "is_key_token": false
+    },
+    {
+      "id": 6,
+      "text": "repaired",
+      "category": "content",
+      "default_weight": 0.293,
+      "draggable": true,
+      "is_key_token": false
+    }
+  ],
+  "intervention_tokens": [
+    "cracks"
+  ],
+  "intervention_states": [
+    {
+      "state_id": "cracks_1_0x",
+      "token": "cracks",
+      "multiplier": 1.0,
+      "token_weights": [
+        {
+          "text": "This",
+          "weight": 1.0
+        },
+        {
+          "text": "bridge",
+          "weight": 0.229
+        },
+        {
+          "text": "has",
+          "weight": 0.203
+        },
+        {
+          "text": "cracks",
+          "weight": 0.184
+        },
+        {
+          "text": "that",
+          "weight": 0.102
+        },
+        {
+          "text": "were",
+          "weight": 0.113
+        },
+        {
+          "text": "never",
+          "weight": 0.083
+        },
+        {
+          "text": "repaired",
+          "weight": 0.293
+        }
+      ],
+      "output": {
+        "yes_prob": 0.31152,
+        "no_prob": 0.11108,
+        "is_correct": false
+      },
+      "display": {
+        "top_attention_tokens": [
+          "This",
+          "repaired",
+          "bridge"
+        ],
+        "prediction_label": "Safe to drive across",
+        "prediction_note": "Model predicts: Yes (31.2%)"
+      }
+    },
+    {
+      "state_id": "cracks_3_0x",
+      "token": "cracks",
+      "multiplier": 3.0,
+      "token_weights": [
+        {
+          "text": "This",
+          "weight": 1.0
+        },
+        {
+          "text": "bridge",
+          "weight": 0.213
+        },
+        {
+          "text": "has",
+          "weight": 0.2
+        },
+        {
+          "text": "cracks",
+          "weight": 0.212
+        },
+        {
+          "text": "that",
+          "weight": 0.101
+        },
+        {
+          "text": "were",
+          "weight": 0.104
+        },
+        {
+          "text": "never",
+          "weight": 0.07
+        },
+        {
+          "text": "repaired",
+          "weight": 0.231
+        }
+      ],
+      "output": {
+        "yes_prob": 0.29224,
+        "no_prob": 0.10925,
+        "is_correct": false
+      },
+      "display": {
+        "top_attention_tokens": [
+          "This",
+          "repaired",
+          "bridge"
+        ],
+        "prediction_label": "Safe to drive across",
+        "prediction_note": "Model predicts: Yes (29.2%)"
+      }
+    },
+    {
+      "state_id": "cracks_6_0x",
+      "token": "cracks",
+      "multiplier": 6.0,
+      "token_weights": [
+        {
+          "text": "This",
+          "weight": 1.0
+        },
+        {
+          "text": "bridge",
+          "weight": 0.208
+        },
+        {
+          "text": "has",
+          "weight": 0.198
+        },
+        {
+          "text": "cracks",
+          "weight": 0.232
+        },
+        {
+          "text": "that",
+          "weight": 0.1
+        },
+        {
+          "text": "were",
+          "weight": 0.101
+        },
+        {
+          "text": "never",
+          "weight": 0.066
+        },
+        {
+          "text": "repaired",
+          "weight": 0.223
+        }
+      ],
+      "output": {
+        "yes_prob": 0.1665,
+        "no_prob": 0.09192,
+        "is_correct": false
+      },
+      "display": {
+        "top_attention_tokens": [
+          "This",
+          "cracks",
+          "repaired"
+        ],
+        "prediction_label": "Safe to drive across",
+        "prediction_note": "Model predicts: Yes (16.7%)"
+      }
+    },
+    {
+      "state_id": "cracks_8_0x",
+      "token": "cracks",
+      "multiplier": 8.0,
+      "token_weights": [
+        {
+          "text": "This",
+          "weight": 1.0
+        },
+        {
+          "text": "bridge",
+          "weight": 0.208
+        },
+        {
+          "text": "has",
+          "weight": 0.196
+        },
+        {
+          "text": "cracks",
+          "weight": 0.238
+        },
+        {
+          "text": "that",
+          "weight": 0.1
+        },
+        {
+          "text": "were",
+          "weight": 0.099
+        },
+        {
+          "text": "never",
+          "weight": 0.065
+        },
+        {
+          "text": "repaired",
+          "weight": 0.222
+        }
+      ],
+      "output": {
+        "yes_prob": 0.06793,
+        "no_prob": 0.05591,
+        "is_correct": false
+      },
+      "display": {
+        "top_attention_tokens": [
+          "This",
+          "cracks",
+          "repaired"
+        ],
+        "prediction_label": "Safe to drive across",
+        "prediction_note": "Model predicts: Yes (6.8%)"
+      }
+    },
+    {
+      "state_id": "cracks_9_5x",
+      "token": "cracks",
+      "multiplier": 9.5,
+      "token_weights": [
+        {
+          "text": "This",
+          "weight": 1.0
+        },
+        {
+          "text": "bridge",
+          "weight": 0.208
+        },
+        {
+          "text": "has",
+          "weight": 0.195
+        },
+        {
+          "text": "cracks",
+          "weight": 0.244
+        },
+        {
+          "text": "that",
+          "weight": 0.099
+        },
+        {
+          "text": "were",
+          "weight": 0.097
+        },
+        {
+          "text": "never",
+          "weight": 0.064
+        },
+        {
+          "text": "repaired",
+          "weight": 0.222
+        }
+      ],
+      "output": {
+        "yes_prob": 0.03299,
+        "no_prob": 0.03284,
+        "is_correct": false
+      },
+      "display": {
+        "top_attention_tokens": [
+          "This",
+          "cracks",
+          "repaired"
+        ],
+        "prediction_label": "Safe to drive across",
+        "prediction_note": "Model predicts: Yes (3.3%)"
+      }
+    },
+    {
+      "state_id": "cracks_10_0x",
+      "token": "cracks",
+      "multiplier": 10.0,
+      "token_weights": [
+        {
+          "text": "This",
+          "weight": 1.0
+        },
+        {
+          "text": "bridge",
+          "weight": 0.207
+        },
+        {
+          "text": "has",
+          "weight": 0.194
+        },
+        {
+          "text": "cracks",
+          "weight": 0.247
+        },
+        {
+          "text": "that",
+          "weight": 0.099
+        },
+        {
+          "text": "were",
+          "weight": 0.096
+        },
+        {
+          "text": "never",
+          "weight": 0.064
+        },
+        {
+          "text": "repaired",
+          "weight": 0.222
+        }
+      ],
+      "output": {
+        "yes_prob": 0.02646,
+        "no_prob": 0.02762,
+        "is_correct": true
+      },
+      "display": {
+        "top_attention_tokens": [
+          "This",
+          "cracks",
+          "repaired"
+        ],
+        "prediction_label": "NOT safe to drive across",
+        "prediction_note": "Model predicts: No (2.8%)"
+      }
+    },
+    {
+      "state_id": "cracks_15_0x",
+      "token": "cracks",
+      "multiplier": 15.0,
+      "token_weights": [
+        {
+          "text": "This",
+          "weight": 1.0
+        },
+        {
+          "text": "bridge",
+          "weight": 0.206
+        },
+        {
+          "text": "has",
+          "weight": 0.189
+        },
+        {
+          "text": "cracks",
+          "weight": 0.273
+        },
+        {
+          "text": "that",
+          "weight": 0.097
+        },
+        {
+          "text": "were",
+          "weight": 0.088
+        },
+        {
+          "text": "never",
+          "weight": 0.061
+        },
+        {
+          "text": "repaired",
+          "weight": 0.22
+        }
+      ],
+      "output": {
+        "yes_prob": 0.00552,
+        "no_prob": 0.00697,
+        "is_correct": true
+      },
+      "display": {
+        "top_attention_tokens": [
+          "This",
+          "cracks",
+          "repaired"
+        ],
+        "prediction_label": "NOT safe to drive across",
+        "prediction_note": "Model predicts: No (0.7%)"
+      }
+    },
+    {
+      "state_id": "cracks_20_0x",
+      "token": "cracks",
+      "multiplier": 20.0,
+      "token_weights": [
+        {
+          "text": "This",
+          "weight": 1.0
+        },
+        {
+          "text": "bridge",
+          "weight": 0.206
+        },
+        {
+          "text": "has",
+          "weight": 0.184
+        },
+        {
+          "text": "cracks",
+          "weight": 0.297
+        },
+        {
+          "text": "that",
+          "weight": 0.095
+        },
+        {
+          "text": "were",
+          "weight": 0.081
+        },
+        {
+          "text": "never",
+          "weight": 0.058
+        },
+        {
+          "text": "repaired",
+          "weight": 0.218
+        }
+      ],
+      "output": {
+        "yes_prob": 0.00211,
+        "no_prob": 0.00286,
+        "is_correct": true
+      },
+      "display": {
+        "top_attention_tokens": [
+          "This",
+          "cracks",
+          "repaired"
+        ],
+        "prediction_label": "NOT safe to drive across",
+        "prediction_note": "Model predicts: No (0.3%)"
+      }
+    },
+    {
+      "state_id": "cracks_30_0x",
+      "token": "cracks",
+      "multiplier": 30.0,
+      "token_weights": [
+        {
+          "text": "This",
+          "weight": 1.0
+        },
+        {
+          "text": "bridge",
+          "weight": 0.205
+        },
+        {
+          "text": "has",
+          "weight": 0.18
+        },
+        {
+          "text": "cracks",
+          "weight": 0.317
+        },
+        {
+          "text": "that",
+          "weight": 0.093
+        },
+        {
+          "text": "were",
+          "weight": 0.074
+        },
+        {
+          "text": "never",
+          "weight": 0.056
+        },
+        {
+          "text": "repaired",
+          "weight": 0.217
+        }
+      ],
+      "output": {
+        "yes_prob": 0.00065,
+        "no_prob": 0.00094,
+        "is_correct": true
+      },
+      "display": {
+        "top_attention_tokens": [
+          "This",
+          "cracks",
+          "repaired"
+        ],
+        "prediction_label": "NOT safe to drive across",
+        "prediction_note": "Model predicts: No (0.1%)"
+      }
+    }
+  ],
+  "sweep_grids": {},
+  "ui_strings": {
+    "panel_header": "Tokens with highest attention:",
+    "output_header": "Given this input, the model predicts:",
+    "hint": "Pull 'cracks' from 9.5x to 10x — the verdict flips right at that edge."
+  },
+  "metadata": {
+    "source": "gpt2-large",
+    "layer": 35,
+    "multipliers_tested": [
+      1.0,
+      3.0,
+      6.0,
+      8.0,
+      9.5,
+      10.0,
+      15.0,
+      20.0,
+      30.0
+    ],
+    "version": "3.0"
+  }
+}

@@ -1,0 +1,19 @@
+# Virtual environment
+.venv/
+
+# Downloaded model weights (huge, do not commit)
+models/
+
+# Python bytecode cache
+__pycache__/
+*.pyc
+
+# IDE
+.idea/
+
+# Raw / identifiable participant data - do not publish
+Raw_Data.xlsx
+subject_profile.xlsx
+thematic_coding_detail.xlsx
+thematic_coding_summary.xlsx
+archive/受试者画像.xlsx

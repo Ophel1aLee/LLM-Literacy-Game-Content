@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(PYTHONIOENCODING=utf-8 .venv/Scripts/python.exe scratch_find_not2.py)",
+      "Bash(PYTHONIOENCODING=utf-8 .venv/Scripts/python.exe scratch_validate_unity.py)",
+      "Bash(PYTHONIOENCODING=utf-8 python -c ' *)"
+    ]
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "meta": {
+    "level": 4,
+    "name": "Headline Editor",
+    "description": "Player mixes 3 independent tag dimensions (Audience x Tone x Engagement) to generate headlines from the same set of facts, revealing that the LLM never evaluates fairness — it just follows framing.",
+    "combo_count": 27
+  },
+  "dimensions": {
+    "audience": [
+      {
+        "id": "worker",
+        "label": "Worker / Union",
+        "description": "Cares about job security and livelihoods.",
+        "prompt_fragment": "Write for supermarket workers and trade union members who are worried about job losses."
+      },
+      {
+        "id": "consumer",
+        "label": "Consumer",
+        "description": "Cares about prices and convenience.",
+        "prompt_fragment": "Write for everyday shoppers who care about prices, speed, and convenience."
+      },
+      {
+        "id": "investor",
+        "label": "Investor / Business",
+        "description": "Cares about efficiency, cost-cutting, and stock performance.",
+        "prompt_fragment": "Write for investors and business readers who care about operational efficiency and company performance."
+      }
+    ],
+    "tone": [
+      {
+        "id": "alarmed",
+        "label": "Alarmed / Critical",
+        "prompt_fragment": "Use an alarmed, critical tone."
+      },
+      {
+        "id": "optimistic",
+        "label": "Optimistic / Enthusiastic",
+        "prompt_fragment": "Use an optimistic, enthusiastic tone."
+      },
+      {
+        "id": "neutral",
+        "label": "Neutral / Measured",
+        "prompt_fragment": "Use a neutral, measured, factual tone."
+      }
+    ],
+    "engagement": [
+      {
+        "id": "straightforward",
+        "label": "Straightforward",
+        "prompt_fragment": "State the news plainly, no rhetorical tricks."
+      },
+      {
+        "id": "breaking",
+        "label": "Breaking / Urgent",
+        "prompt_fragment": "Frame it as breaking, urgent news demanding immediate attention."
+      },
+      {
+        "id": "question",
+        "label": "Provocative Question",
+        "prompt_fragment": "Phrase the headline as a provocative question that hooks the reader."
+      }
+    ]
+  },
+  "prompt_template": "Write a single newspaper headline based on these facts: {facts}\n{audience_fragment} {tone_fragment} {engagement_fragment}\nOutput only the headline, nothing else, no explanation, no quotation marks.",
+  "starter_combos": [
+    {
+      "note": "Onboarding panel 1 — matches original Workers' Tribune",
+      "audience": "worker",
+      "tone": "alarmed",
+      "engagement": "straightforward"
+    },
+    {
+      "note": "Onboarding panel 2 — matches original The Checkout",
+      "audience": "consumer",
+      "tone": "optimistic",
+      "engagement": "straightforward"
+    },
+    {
+      "note": "Onboarding panel 3 — matches original clickbait tribune",
+      "audience": "investor",
+      "tone": "neutral",
+      "engagement": "breaking"
+    }
+  ],
+  "example_scenario": {
+    "id": "supermarket_ai",
+    "facts": "A major supermarket chain announced the expansion of AI self-checkout to all stores nationwide. 40% of existing cashier positions will be eliminated. The company claims the move will reduce operating costs and may lower prices for consumers. Trade unions have raised concerns about reemployment prospects for affected workers."
+  }
+}

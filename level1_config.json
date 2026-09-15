@@ -1,0 +1,266 @@
+[
+  {
+    "id": "tongue_map",
+    "description": "味觉地图伪科学",
+    "context": "The tip of the tongue is most sensitive to",
+    "correct_candidate": "all flavors equally",
+    "model_wrong": true,
+    "candidates": [
+      {
+        "token": "sweet flavors",
+        "probability": 0.4673,
+        "raw_log_prob": -1.9574,
+        "is_correct": false
+      },
+      {
+        "token": "touch and pressure",
+        "probability": 0.3655,
+        "raw_log_prob": -2.2031,
+        "is_correct": false
+      },
+      {
+        "token": "salty flavors",
+        "probability": 0.1565,
+        "raw_log_prob": -3.051,
+        "is_correct": false
+      },
+      {
+        "token": "all flavors equally",
+        "probability": 0.0107,
+        "raw_log_prob": -5.7363,
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": "brain_10pct",
+    "description": "大脑10%使用率",
+    "context": "The human brain's usage is typically",
+    "correct_candidate": "nearly 100% over the course of a day",
+    "model_wrong": true,
+    "candidates": [
+      {
+        "token": "10% of its capacity",
+        "probability": 0.4597,
+        "raw_log_prob": -1.1387,
+        "is_correct": false
+      },
+      {
+        "token": "nearly 100% over the course of a day",
+        "probability": 0.2705,
+        "raw_log_prob": -1.669,
+        "is_correct": true
+      },
+      {
+        "token": "50% at any given moment",
+        "probability": 0.1938,
+        "raw_log_prob": -2.0022,
+        "is_correct": false
+      },
+      {
+        "token": "30% during active tasks",
+        "probability": 0.076,
+        "raw_log_prob": -2.9382,
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "goldfish_memory",
+    "description": "金鱼记忆3秒",
+    "context": "Goldfish have a memory span of",
+    "correct_candidate": "several months",
+    "model_wrong": true,
+    "candidates": [
+      {
+        "token": "three seconds",
+        "probability": 0.5179,
+        "raw_log_prob": -1.2407,
+        "is_correct": false
+      },
+      {
+        "token": "several months",
+        "probability": 0.277,
+        "raw_log_prob": -1.8667,
+        "is_correct": true
+      },
+      {
+        "token": "a few days",
+        "probability": 0.109,
+        "raw_log_prob": -2.7988,
+        "is_correct": false
+      },
+      {
+        "token": "about thirty seconds",
+        "probability": 0.0961,
+        "raw_log_prob": -2.9257,
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "camel_hump",
+    "description": "驼峰储存水",
+    "context": "The humps on a camel's back are used to store",
+    "correct_candidate": "fat as an energy reserve",
+    "model_wrong": true,
+    "candidates": [
+      {
+        "token": "water for long desert journeys",
+        "probability": 0.5452,
+        "raw_log_prob": -1.5929,
+        "is_correct": false
+      },
+      {
+        "token": "fat as an energy reserve",
+        "probability": 0.3845,
+        "raw_log_prob": -1.9422,
+        "is_correct": true
+      },
+      {
+        "token": "nutrients absorbed from food",
+        "probability": 0.058,
+        "raw_log_prob": -3.8344,
+        "is_correct": false
+      },
+      {
+        "token": "excess body heat",
+        "probability": 0.0124,
+        "raw_log_prob": -5.375,
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "bull_red",
+    "description": "公牛对红色发怒",
+    "context": "Bulls charge at a matador's cape because",
+    "correct_candidate": "they react to the movement of the cape",
+    "model_wrong": true,
+    "candidates": [
+      {
+        "token": "they are enraged by the color red",
+        "probability": 0.4269,
+        "raw_log_prob": -1.1598,
+        "is_correct": false
+      },
+      {
+        "token": "they react to the movement of the cape",
+        "probability": 0.4161,
+        "raw_log_prob": -1.1855,
+        "is_correct": true
+      },
+      {
+        "token": "the cape's shape resembles a threat",
+        "probability": 0.1455,
+        "raw_log_prob": -2.2359,
+        "is_correct": false
+      },
+      {
+        "token": "loud crowd noise startles them",
+        "probability": 0.0115,
+        "raw_log_prob": -4.7754,
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "viking_horns",
+    "description": "维京头盔有角",
+    "context": "Viking warriors are historically depicted wearing helmets",
+    "correct_candidate": "without horns",
+    "model_wrong": true,
+    "candidates": [
+      {
+        "token": "with horns",
+        "probability": 0.8818,
+        "raw_log_prob": -0.4402,
+        "is_correct": false
+      },
+      {
+        "token": "made entirely of leather",
+        "probability": 0.0532,
+        "raw_log_prob": -3.2476,
+        "is_correct": false
+      },
+      {
+        "token": "decorated with feathers",
+        "probability": 0.0423,
+        "raw_log_prob": -3.4767,
+        "is_correct": false
+      },
+      {
+        "token": "without horns",
+        "probability": 0.0226,
+        "raw_log_prob": -4.1042,
+        "is_correct": true
+      }
+    ]
+  },
+  {
+    "id": "lightning_twice",
+    "description": "闪电不会打在同一地方两次",
+    "context": "Lightning strikes the same location",
+    "correct_candidate": "repeatedly, especially tall structures",
+    "model_wrong": false,
+    "candidates": [
+      {
+        "token": "repeatedly, especially tall structures",
+        "probability": 0.67,
+        "raw_log_prob": -2.6766,
+        "is_correct": true
+      },
+      {
+        "token": "never more than once",
+        "probability": 0.1823,
+        "raw_log_prob": -3.9783,
+        "is_correct": false
+      },
+      {
+        "token": "only during the summer months",
+        "probability": 0.123,
+        "raw_log_prob": -4.3719,
+        "is_correct": false
+      },
+      {
+        "token": "only near bodies of water",
+        "probability": 0.0247,
+        "raw_log_prob": -5.9767,
+        "is_correct": false
+      }
+    ]
+  },
+  {
+    "id": "knuckle_cracking",
+    "description": "掰手指导致关节炎",
+    "context": "Cracking your knuckles causes",
+    "correct_candidate": "no long-term joint damage",
+    "model_wrong": false,
+    "candidates": [
+      {
+        "token": "no long-term joint damage",
+        "probability": 0.7433,
+        "raw_log_prob": -0.861,
+        "is_correct": true
+      },
+      {
+        "token": "arthritis in the joints",
+        "probability": 0.2358,
+        "raw_log_prob": -2.0091,
+        "is_correct": false
+      },
+      {
+        "token": "nerve damage over time",
+        "probability": 0.0191,
+        "raw_log_prob": -4.5227,
+        "is_correct": false
+      },
+      {
+        "token": "permanent finger swelling",
+        "probability": 0.0019,
+        "raw_log_prob": -6.8517,
+        "is_correct": false
+      }
+    ]
+  }
+]
