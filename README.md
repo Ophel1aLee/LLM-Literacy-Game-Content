@@ -1,6 +1,6 @@
 # Thesis Config
 
-Research code for my master these "A Serious Game For Enhancing LLM Literacy Among Non-Technical Users."
+Research code for my master thesis "A Serious Game For Enhancing LLM Literacy Among Non-Technical Users."
 It has two parts:
 
 1. **Level 1–4**: four in-game content for each level. Each produces a JSON config consumed by a companion Unity project that turns the results into an interactive demo.
