@@ -18,7 +18,7 @@ level3.py                       Level 3: knowledge-cutoff comparison across mode
 level4.py                       Level 4: headline framing across audience/tone/engagement tags
 
 survey_stats_analysis.py        quantitative analysis of the user study (charts + significance tests)
-survey_thematic_coding.py       thematic coding of open-ended survey responses -> Word report
+survey_thematic_coding.py       thematic coding of open-ended survey responses
 subject_profile_charts.py       participant demographic charts
 
 models/                         local HF model caches (gitignored, not tracked)
@@ -37,25 +37,3 @@ pip install torch transformers bitsandbytes pandas numpy scipy matplotlib openpy
 ```
 
 The Level 1–4 scripts also need local copies of the relevant Hugging Face models (GPT-2-large, Mistral-7B-Instruct-v0.2, Pythia-1B, OPT-1.3B, etc.) under `models/`, and a CUDA GPU for anything beyond GPT-2-large.
-
-## Running
-
-```bash
-python level1.py            # -> level1_config.json
-python level2_medication.py # -> level2_config_medication.json
-python level2_bridge.py     # -> level2_config_bridge.json
-python level2_crane.py      # -> level2_config_crane.json
-python level3.py            # -> level3_results.json
-python level4.py            # -> level4_config.json
-
-python survey_stats_analysis.py      # reads Raw_Data.xlsx -> outputs/
-python survey_thematic_coding.py     # reads Raw_Data.xlsx -> thematic_coding_*.xlsx, thematic_analysis_report.docx
-python subject_profile_charts.py subject_profile.xlsx   # -> charts/
-```
-
-## Data files
-
-- `Raw_Data.xlsx` — pre/post-test scores and questionnaire responses from the user study.
-- `subject_profile.xlsx` — participant demographics.
-- `level4_tags_config.json` — audience/tone/engagement tag definitions used by `level4.py`.
-- `level1_config.json`, `level2_config_medication.json`, `level2_config_bridge.json`, `level2_config_crane.json`, `level3_results.json`, `level4_config.json` — generated results consumed by the Unity project.
