@@ -1,9 +1,10 @@
 # Thesis Config
 
-Research code for a thesis studying how people understand and trust LLM behavior. It has two parts:
+Research code for my master these "A Serious Game For Enhancing LLM Literacy Among Non-Technical Users."
+It has two parts:
 
-1. **Level 1–4** — four small experiments that probe LLM behavior (factual misconceptions, attention/negation intervention, knowledge-cutoff comparison, framing bias). Each produces a JSON config consumed by a companion Unity project (`Thesis_Final`) that turns the results into an interactive demo.
-2. **Survey analysis** — quantitative and qualitative analysis of the user study (pre/post test scores, questionnaire responses, participant profile).
+1. **Level 1–4**: four in-game content for each level. Each produces a JSON config consumed by a companion Unity project that turns the results into an interactive demo.
+2. **Survey analysis**: quantitative and qualitative analysis of the user study (pre/post test scores, questionnaire responses, participant profile).
 
 ## Repository structure
 
@@ -20,7 +21,6 @@ survey_stats_analysis.py        quantitative analysis of the user study (charts 
 survey_thematic_coding.py       thematic coding of open-ended survey responses -> Word report
 subject_profile_charts.py       participant demographic charts
 
-archive/                        superseded earlier versions, kept for reference (not part of the live pipeline)
 models/                         local HF model caches (gitignored, not tracked)
 outputs/                        charts from survey_stats_analysis.py
 charts/                         charts from subject_profile_charts.py
